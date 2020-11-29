@@ -1,0 +1,79 @@
+3) Dados los siguientes vectores en 7 dimensiones:
+
+V1 = [0, 1, 0, 1, 1, 0, 0]
+V2 = [1, 0, 1, 0, 1, 0, 1]
+V3 = [1, 1, 1, 0, 0, 1, 0]
+V4 = [0, 1, 0, 0, 1, 0, 1]
+V5 = [1, 1, 1, 1, 1, 1, 0]
+V6 = [1, 1, 1, 1, 0, 0, 0]
+V7 = [0, 0, 0, 0, 0, 0, 1]
+V8 = [0, 0, 0, 1, 1, 1, 0]
+
+Se utiliza un minhash para la distancia de Hamming usando los bits 0,
+1 y 5. Es decir que tendremos r = 3 y b = 1. Decidimos usar para LSH
+una tabla de hashing de 6 registros con buckets de tamaño 4.
+
+a. Realice el pre-procesamiento necesario para poder usar
+LSH con los vectores. Indique precisamente qué estructura
+tendrá la tabla, qué se almacena en la misma y de qué
+forma.
+
+Ponemos en la tabla como columna los minhashes (donde MH1 es para el bit 0,
+MH2 es para el bit 1 y MH3 es para el bit 5). Las filas son los vectores y los elementos
+de la matriz son los valores de los bits de los vectores para los minhashes en cuestion.
+La tabla quedaria entonces
+
+        MH1     MH2     MH3
+
+V1       0       1       0
+
+V2       1       0       0
+
+V3       1       1       1
+
+V4       0       1       0
+
+V5       1       1       1
+
+V6       1       1       0
+
+V7       0       0       0
+
+V8       0       0       1
+
+
+Luego tenemos b = 1 por lo tanto tenemos una sola banda asi que necesitaremos
+una funcion universal de hashing que tome como input los 3 valores de los minhashes
+del vector y de como output la posicion de registro en la tabla de hashing (la cual tiene
+6 registros donde cada registro puede almacenar hasta 4 elementos)
+
+Podemos proponer entonces una funcion de hashing
+
+h(mh1, mh2, mh3) = ( (a*mh1 + b*mh2 + c*mh3) % p) % 6 (p es primo, m es la cant de registros)
+
+Los coeficientes y el valor de p los podemos elegir como se nos cante la chota parece asi que tomo
+a = 4, b = 2, y c = 1 y p = 7 (igual que en el resuelto de ellos porque da smooth as fuck).
+
+Finalmente
+
+h(mh1, mh2, mh3) = ( (4*mh1 + 2*mh2 + mh3) % p) % 6
+
+b. Queremos hallar el vector más cercano a
+Q = [1, 0, 1, 0, 0, 0, 1]. Explique de qué forma encontraría
+dicho vector a partir de la estructura construida en el punto
+a.
+
+Primero le calculamos los minhashes MH1 MH2 MH3 y luego le aplicamos a eso la funcion
+de hashing h(MH1, MH2, MH3) y el valor que nos devuelva esa funcion nos indicara en que
+registro iria. Luego tomamos los otros valores almacenados en ese registro y chequeamos
+la distancia de Hamming entre ambos vectores, quedandonos con aquel/llos vectores cuya distancia
+de Hamming sea la minima.
+
+c. La tabla usada para este ejercicio tiene capacidad para 24
+registros que es el triple de los registros que almacenamos
+(8). Indique de qué forma podría reducirse la cantidad de
+espacio usada.
+(25pts)
+
+Podes reducir la cantidad de buckets por registro o modificar la funcion de hashing
+para disminuir la cantidad de registros (es decir, disminuis el modulo m)

@@ -1,0 +1,22 @@
+4) Se quiere aplicar LSH a un conjunto de documentos para encontrar los pares de
+documentos mas similares. Queremos que si J(D1,D2) >= 0.7 entonces la probabilidad de
+que D1 y D2 sean candidatos sea >= 0.9 y queremos que si J(D1,D2) <= 0.5 entonces
+la probabilidad de que sean candidatos sea <= a 0.3. Indique cuántas funciones
+minhash usaría y que combinación de AND y OR usaría para lograr lo pedido.
+
+p1 >= 0.9
+p2 <= 0.3
+Dj(D1, D2) = 1 - J(D1, D2)
+=> Dj(D1, D2) <= 0.3 para p1
+=> Dj(D1, D2) >= 0.5 para p2
+
+Reemplazando:
+
+p1 = 1 - (1 - (1 - d1)^r)^b
+p2 = 1 - (1 - (1 - d2)^r)^b
+
+0.9 <= 1 - (1 - (1 - 0.3)^r)^b
+0.3 >= 1 - (1 - (1 - 0.5)^r)^b
+
+Segun Tomi r = 6 y b = 19 cumplen. VERIFICAR!
+

@@ -1,0 +1,26 @@
+9) Usamos LSH para la distancia de Jaccard para comparar frases breves usando 4-shingles
+con 6 funciones de hashing que agrupamos en 3 construcciones OR de 2 construcciones
+AND cada una. Queremos obtener los strings que sean al menos 80% semejantes a
+“use the force”. Describa detalladamente todos los pasos necesarios para encontrar
+las frases que cumplan con lo pedido.
+
+r = 2
+b = 3
+
+rb = 6 como dice el enunciado, todo OK
+
+4-shingles := conjunto de 4 letras cada elemento (tipo seria {'USE ', 'SE T', 'E TH', ..., 'RCE?', 'CE?', 'E?'})
+
+Tomando una matriz donde las filas representan los shingles y las columnas
+representan las frases breves (vendrian a ser los strings) cada elemento de la matriz
+tiene un 1 si ese string contiene a ese shingle o un 0 en caso contrario. Luego
+se ordenan las filas de forma random generando eso un funcion de minhash donde la primera
+fila en la que aparece un 1 para cada string (la fila arranca en indice 0) seria el valor de ese
+string para ese minhash. Como rb = 6 tenemos 6 funciones de minhash (2 para cada una de las 3 bandas) asi que habria que poner aleatoriamente
+las filas 6 veces, donde para cada vez nos fijamos en que indice de fila aparece el primer 1 para cada string, asignandole
+ese valor de fila como el valor de ese string para ese minhash.
+
+Una vez hecho esto ya tenemos los minhashes para cada string, luego para saber la semejanza entre
+cada documento con el string 'use the force' habria que sumar las columna a columna y dividir esa suma
+por el total de filas, lo que nos daria como resultado para cada string la semejanza (ya que es directamente
+el valor entre 0 y 1) de este con el string 'use the force'.

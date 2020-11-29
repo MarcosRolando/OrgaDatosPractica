@@ -1,0 +1,87 @@
+5) Dados los documentos:
+
+D1: AUTO AUTO AUTO CAMIONETA CAMION MOTO MOTO
+D2: CAMION MOTO
+D3: AUTO CAMIONETA
+D4: AUTO SUV CAMION CAMIONETA MOTO
+D5: SUV
+
+a) Resolver la consulta ranqueada “AUTO SUV” utilizando TF-IDF.
+Detallar cada paso para llegar al resultado (*** 7 pts)
+
+b) Proponer una alternativa de solución que mejore la obtenida en el
+pto a. Justificar la respuesta. (*** 4 pts)
+
+c) Considerando relevantes los documentos que contienen los
+términos AUTO y SUV, calcular la precisión, recall, y F1 score para el
+resultado obtenido en el punto a. (** 4 pts)
+
+Respuesta:
+
+a)
+
+terminos    |     TF1     |    TF2    |   TF3  |  TF4   |  TF5  |   IDF (N = 5) #la cuenta es log((N+1)/Tfi), Tfi es la cant de doc en los que aparece
+            |             |           |        |        |       |
+AUTO        |     3       |    0      |   1    |   1    |   0   |   0.3
+CAMIONETA   |     1       |    0      |   1    |   1    |   0   |   0.3
+CAMION      |     1       |    1      |   0    |   1    |   0   |   0.3
+MOTO        |     2       |    1      |   0    |   1    |   0   |   0.3
+SUV         |     0       |    0      |   0    |   1    |   1   |   0.48
+
+Resolviendo la consulta tendriamos:
+
+W(Di) = TFautoi * DFIauto  + TFsuvi * DFIsuv (basicamente es la sumatoria para el documento i de los TF de los terminos * los IDF de los terminos)
+
+W(D1) = 3*0.3 + 0*0.48 = 0.9
+W(D2) = 0*0.3 + 0*0.48 = 0
+W(D3) = 1*0.3 + 0*0.48 = 0.3
+W(D4) = 1*0.3 + 1*0.48 = 0.78
+W(D5) = 0*0.3 + 1*0.48 = 0.48
+
+Ordenando de mayor a menor tendriamos:
+
+1) D1
+2) D4
+3) D5
+4) D3
+
+b)
+
+Vemos que el a es una poronga porque el TF aporta mucho al peso W obtenido.
+La mejor forma de conseguir resultados mas optimos seria reducir el crecimiento
+del TF tomando la siguiente cuenta:
+
+TF = log (1+ log(1 + cantidad)) #podria ser lo del BM25 tambien, la verdad que ni idea que mejora esperan
+
+lo que hace que el TF crezca mucho mas lento y en consecuencia no aporte tanto
+al W (deberia tener muchisima diferencia de frecuencia entre 2 documentos para un termino
+dado para que el TF empiece a aportar considerablemente).
+
+c)
+
+Definamos primero los terminos.
+
+Precision = documentos relevantes recuperados / documentos recuperados
+
+Recall =  documentos relevantes recuperados / documentos relevantes totales
+
+FB score = (B^2 + 1)*P*R / (B^2*P + R) #B es beta, P es precision, R es recall
+
+entonces
+
+F1 score = 2*P*R / (P + R)
+
+donde entonces tenemos que
+
+
+documentos relevantes recuperados = 1 (el D4)
+documentos recuperados = 4
+documentos relevantes totales = 1
+
+Calculando
+
+Precision = 0.25
+
+Recall = 1
+
+F1 score = 0.4

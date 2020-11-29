@@ -1,0 +1,37 @@
+4) Dada la siguiente función de hashing que pertenece a la familia Universal de Carter-Wegman para
+números enteros: h(x) = [(4*x + 3) mod 13] mod 5 . Usamos h para construir un esquema FKS para
+las siguientes claves: 20,40,70,10,100. Indicar la estructura final resultante y en caso de
+ser necesario la segunda función de hashing a usar para el segundo nivel teniendo en cuenta que
+debe pertenecer a la familia [(a*x + b ) mod 13] mod m
+
+m se elige como el primero mayor mas cercano a la cantidad de colisiones al cuadrado. m inicial es 5.
+
+h(20) = 0
+h(40) = 2
+h(70) = 0
+h(10) = 4
+h(100) = 0
+
+h(20) c h(70) c h(100) (c de colision)
+
+Para ese bucket entonces k colisiones con k = 3 => k^2 = 9 => m = 11
+
+h2(x) = [(4*x + 3) mod 13] mod 11
+
+h2(20) = 5
+h2(70) = 10
+h2(100) = 0
+
+Tabla
+
+k  claves          hash2                          segundas tablas
+
+0  20, 70, 100     [(4*x + 3) mod 13] mod 11      {100,-,-,-,-,20,-,-,-,-,70,-}
+
+1  -               -                              -
+
+2  40              x mod 1                        {40}
+
+3  -               -                              -
+
+4  10              x mod 1                        {10}

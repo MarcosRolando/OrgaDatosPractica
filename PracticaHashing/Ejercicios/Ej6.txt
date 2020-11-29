@@ -1,0 +1,20 @@
+6) Supongamos que asignamos a cada letra del alfabeto un número de la forma A=1, B=2, C=3, etc...
+Proponemos como función de hashing sumar el valor correspondiente a cada carácter del string y
+luego tomar el módulo con un cierto número primo p. Analizar la función propuesta indicando:
+
+a) Cantidad de colisiones
+b) Facilidad de encontrar sinónimos
+c) Eficiencia
+d) Efecto avalancha
+
+a) Cualquier anagrama va a colisionar, luego tambien tenes que tener en cuenta que palabras que nada que ver entre si
+colisionarian tambien (por la suma aritmetica de los valores asignados)
+
+b) Considerando que cualquier anagrama colisiona es probable que encontrar sinonimos sea considerablemente
+facil.
+
+c) La funcion de hashing en si es super eficiente porque es re pelotuda. Si consideramos eficiencia como no colisionar
+cada 2x3 probablemente sea una verga.
+
+d) El minimo cambio en letras o poner letras consecutivas mantiene aprox el mismo valor de hasheo asi que no tiene
+practicamente efecto avalancha (o sea un diferencial dx en letras genera un cambio infimo en el resultado del hashing)

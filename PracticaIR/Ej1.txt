@@ -1,0 +1,16 @@
+1) Considerando a cada línea como un documento y cada palabra como un término
+construya la matriz de términos x documentos usando TF-IDF. Finalmente indique
+cuántas dimensiones elegiría para usar LSI justificando adecuadamente su respuesta.
+
+
+
+Salsa Tomate Pizza Muzzarella Tomate    #D1
+
+Fideos Tomate Salsa Fideos Fideos   #D2
+
+Pizza Tomate Tomate     #D3
+
+Fideos Salsa Salsa Salsa    #D4
+
+
+

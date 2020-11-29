@@ -1,0 +1,11 @@
+7) Usamos LSH para encontrar documentos parecidos a un documento consulta.
+Desafortunadamente nuestra función LSH no está encontrando varios documentos
+que son similares a los buscados y esto es importante para nuestro problema.
+Indique diferentes formas de solucionar este problema.
+
+ Lo que esta ocurriendo se denomina falsos negativos, que es donde la funcion LSH
+ determina que documentos que son simiilares en realidad no lo son (y esto es falso).
+ Para disminuir los falsos negativos tenes que ser mas laxo en la funcion LSH,
+las formas de hacer esto es aumentar la cantidad de bandas (esto es, aumentar el valor
+de b) o sino tambien disminuir r. Logicamente esto resultaria tambien en aumentar
+la tasa de falsos positivos, habria el encontrar el balance.

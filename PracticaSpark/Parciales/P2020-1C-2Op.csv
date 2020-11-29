@@ -1,0 +1,19 @@
+state,city,poverty_rate
+S1,Washington DC,0.4
+S1,Los Angeles,0.3
+S1,Chicago,0.6
+S1,New York,0.55
+S1,New Jersey,0.14
+S1,San Francisco,0.7
+S2,Washington DC,0.09
+S2,Los Angeles,0.56
+S2,Chicago,0.47
+S2,New York,0.65
+S2,New Jersey,0.32
+S2,San Francisco,0.11
+S3,Washington DC,0.95
+S3,Los Angeles,0.4
+S3,Chicago,0.2
+S3,New York,0.1
+S3,New Jersey,0.15
+S3,San Francisco,0.89

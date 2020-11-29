@@ -1,0 +1,7 @@
+state,city,share_white,share_black,share_native_american,share_asian,share_hispanic
+S2,Washington DC,0.3,0.3,0.1,0.1,0.2
+S1,Chicago,0.1,0.4,0.1,0.2,0.2
+S1,New Jersey,0.5,0.4,0.05,0.03,0.02
+S3,San Francisco,0.2,0.2,0.2,0.2,0.2
+S3,Los Angeles,0.6,0.1,0.2,0.05,0.05
+S3,New York,0.4,0.4,0.05,0.1,0.05

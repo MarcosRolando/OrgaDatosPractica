@@ -1,0 +1,61 @@
+5) Dados los siguientes textos considerando a cada línea como un
+documento:
+
+D1) Luna Apolo programa NASA
+D2) Marte mision Pathfinder NASA
+D3) Luna mision NASA Marte mision NASA NASA mision Marte
+D4) Luna Marte Luna Marte Luna Marte Luna Marte
+
+a) Usando TF-IDF calcular la relevancia de cada documento para la
+consulta “mision Apolo Luna”. Indicar detalladamente todos los
+cálculos realizados. (*) (10 pts)
+
+b) Explique que ventaja tiene BM25 sobre el esquema usado en el
+punto “a” (esto es en general, no solo para la consulta) (**) (5 pts)
+
+Respuestas:
+
+a)
+
+terminos        TF1     TF2     TF3     TF4     IDF
+
+
+mision          0       1       3       0       log((4 + 1) / 2) = 0.39794
+
+Apolo           1       0       0       0       log((4 + 1) / 1) = 0.69897
+
+Luna            1       0       1       4       log((4 + 1) / 3) = 0.2218487
+
+programa        1       0       0       0       log((4 + 1) / 1) = 0.69897
+
+NASA            1       1       3       0       log((4 + 1) / 3) = 0.2218487
+
+Pathfinder      0       1       0       0       log((4 + 1) / 1) = 0.69897
+
+Marte           0       1       2       4       log((4 + 1) / 3) = 0.2218487
+
+Ahora calculamos los pesos de los documentos:
+
+W(Di) = Tfi(mision)*IDF(mision) + Tfi(Apolo)*IDF(Apolo) + Tfi(Luna)*IDF(Luna)
+
+Entonces
+
+W(D1) = 0*0.39794 + 1*0.69897 + 1*0.2218487 = 0.9208187
+W(D2) = 0.39794
+W(D3) = 1.4156687
+W(D4) = 0.8873948
+
+En orden (mas a menos relevante) quedaria
+
+1) D3
+2) D1
+3) D4
+4) D2
+
+b)
+
+El BM25 principalmente se encarga de "normalizar" los documentos, es decir, le quita
+la ventaja a a los documentos mas largos llevando a todos a un "playing field" equivalente,
+donde se le estaria dando mas importancia a la "densidad" de los terminos (es decir cantidad de apariciones
+del termino buscado sobre la totalidad de los terminos) en vez de simplemente a la cantidad
+de apariciones del termino.

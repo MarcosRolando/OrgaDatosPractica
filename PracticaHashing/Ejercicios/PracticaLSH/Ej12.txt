@@ -1,0 +1,13 @@
+12) Si la probabilidad de que dos vectores colisionen usando un único hiperplano es mayor a 0.95.
+a) ¿Cuál es el ángulo máximo entre los vectores?
+b) De un ejemplo de un hiperplano para el cual dos vectores que están a la distancia indicada en el punto anterior no colisionen.
+
+a) (180g-tita)/180g >= 0.95
+
+entonces tita <= 9g
+donde se ve que el maximo angulo entre los vectores es 9 grados.
+
+b) Alta paja hacer la cuenta pero la idea seria por ejemplo agarrar dos vectores cuyo x sea
+0.0001 para v1 y -0.0001 para v2 y cuyo valor en y sea 1 para los 2 (por poner un ejemplo que tiene angulo menor a 9 grados (CREO))
+y luego usar el hiperplano r = (1, 0), ya que ahi la proyeccion de esos vectores te quedan de lados contrarios en el signo de x.
+Entonces tendrias 1 y -1 respectivamente y no colisionarian.

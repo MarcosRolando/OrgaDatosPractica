@@ -1,0 +1,54 @@
+8) Usando la distancia de Jaccard y 36 minhashes se quiere comparar el efecto de
+usar 6 construcciones OR y luego 6 AND contra usar primero 6 construcciones AND y
+luego 6 OR. ¿En qué casos tendremos mas falsos positivos y en que casos mas falsos
+negativos? Si fijamos d1 = 0.2 y d2 = 0.5 ¿cuál es la probabilidad de que dos documentos
+sean candidatos en cada caso?
+
+r = 6
+b = 6
+
+r*b = 36 (cant de minhashes)
+
+Las siguientes son las formulas que relacionan distancia con probabilidad
+para el caso donde aplicas primero la AND y despues la OR. (La AND iria dentro
+de los conjuntos de las bandas y la OR para combinar esos resultados de las bandas)
+
+p1 = 1 - (1 - (1 - d1)^r)^b
+p2 = 1 - (1 - (1 - d2)^r)^b
+
+Esto se desprende de que la probabilidad de que colisiones elementos similares en r
+minhashes es p^r mientras que la probabilidad de que colisionen en alguna de las bandas
+es 1 - (1 - p)^b y donde finalmente p = 1 - d. De ahi reemplazando salen las anteriores 2
+formulas si primero se hace una AND entre los minhashes y despues los ORs para las bandas.
+
+Caso contrario, si primero hicieramos las ORs para los minhashes y luego las ANDs para las
+bandas tendriamos entonces
+
+(1 - (1 - p)^b)^r
+
+donde p = 1 - d entonces
+
+(1 - (d)^b)^r
+
+Finalmente aqui
+
+p1 = (1 - d1^b)^r
+p2 = (1 - d2^b)^r
+
+Tendremos entonces mas falsos negativos para el caso donde primero hagamos AND y luego OR mientras
+que al contrario tendremos mas falsos positivos si primero hacemos OR y luego AND ya que la segunda formula
+es considerablemente mas laxa ya que a mayor b tendrias que tener mucho r (muchos minhashes) para disminuir la
+probabilidad.
+
+Para el caso donde d1 = 0.2 y d2 = 0.5 tendriamos que para el caso de AND y despues OR (r = 6, b = 6)
+
+p1 = 0.838
+p2 = 0.09
+
+Para el caso donde primero hacemos OR y luego AND
+
+p1 = 0.9996
+p2 = 0.909
+
+Vemos que lo obtenido coincide con lo que explicamos previamente. Recordar que 1 - p1 es la prob de falsos negativos
+y p2 es la prob de falsos positivos. 

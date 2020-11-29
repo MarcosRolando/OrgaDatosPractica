@@ -1,0 +1,47 @@
+3) Tenemos vectores en 4 dimensiones y usamos “the hashing trick” usando el método de una única función
+de hashing (es decir sin signo) para reducirlos a 3 dimensiones. Sabemos que la matriz asociada a
+la función de hashing usada es la siguiente (por filas): [1,0,0; 0,0,1; 0,1,0; 1,0,0].
+Se pide construir la función de hashing h(x) equivalente a la matriz presentada.
+
+H = [1 0 0
+     0 0 1
+     0 1 0
+     1 0 0]
+
+
+v*H = u, donde u es el vector transformado (o sea h(v) = u)
+
+Sabemos que h(x) = (a*x + b) % p) % m, donde p es el primo mas cercano a m siendo mayor que este (ej m = 3 tendria p = 5)
+
+Entonces sabemos que m = 3 (nueva dimension) entonces p = 5 (esto se hace por convencion, esta demostrado lo que dije)
+
+Nos falta saber a y b.
+
+
+h(x) = ((a*x + b) % 5) % 3
+
+v = (v1, v2, v3, v4)
+
+v*H = (v1 + v4, v3, v2) = (u1, u2, u3) = u
+
+v = (1, 2, 3, 4)
+
+=> v*H = (5, 3, 2) = u
+
+h(1) = ((a + b) % 5) % 3 = 0 
+
+h(4) = ((a*4 + b) % 5) % 3 = 0
+
+h(2) = ((a + b) % 5) % 3 = 2
+
+h(3) = ((a*4 + b) % 5) % 3 = 1
+
+
+Con el metodo de Python, resolvimos este sistema a la fuerza probando a y b de 1 a 100 y 0 100 respectivamente. Hay muchas combinaciones que cumplen
+pero nos quedamos con la minima porque nos gusta mas, donde a = b = 4.
+
+Finalmente h(x) = ((4*x + 4) % 5) % 3
+
+Comment: todas los a y b obtendios tienen una diferencia de 5 en los valores. Imagino que en realidad son todos la misma funcion de hashig en cuanto
+que hashean los valores a los mismos resultados. No lo probe igual, y tampoco se como lo sacarias analiticamente esto.
+

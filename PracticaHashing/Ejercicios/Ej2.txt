@@ -1,0 +1,12 @@
+2) Encontrar el m mínimo y los parámetros a y b de forma tal que la función de hashing ( (ax + b) mod m ) sea perfecta para las siguientes claves: 1, 3, 5, 12
+
+Lo unico que determina en esta ecuacion que dos o mas claves colisionen es el valor de m (recordemos que a > 0, b >= 0).
+Vemos que si m = 4 (el valor que a priori pensariamos que puede cumplir ya que mantiene las dimensiones) tendriamos entonces
+que h(x) = (a*x + b) % 4, donde h(1) = h(5) para todo a y b tal que a > 0, b >= 0. Probamos lueg con m = 5 y tenemos que para
+ese valor ninguna de las claves colisiona por lo tanto m = 5, donde a y b pueden valer cualquier valor dada la condicion
+expresada previamente, asi que podriamos elegir la mas sencilla siendo a = 1 y b = 0, entonces:
+
+m = 5
+a = 1
+b = 0
+

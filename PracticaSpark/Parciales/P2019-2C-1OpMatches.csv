@@ -1,0 +1,1001 @@
+id_partido,anio,semestre,nro_fecha,equipo_local,equipo_visitante
+1,2015,2,2,Independiente,Independiente
+2,2015,1,7,Rosario Central,Boca
+3,2019,2,15,Independiente,Independiente
+4,2013,1,14,Velez,Independiente
+5,2010,1,14,River,Boca
+6,2012,2,12,Racing,Velez
+7,2010,1,14,Velez,River
+8,2019,1,6,Rosario Central,Rosario Central
+9,2013,1,3,Rosario Central,Boca
+10,2015,2,9,Velez,Independiente
+11,2016,2,18,River,Racing
+12,2018,2,16,Boca,Boca
+13,2015,1,16,Independiente,River
+14,2010,1,16,Racing,River
+15,2012,2,20,Racing,Rosario Central
+16,2010,1,11,Velez,Rosario Central
+17,2016,2,1,Velez,River
+18,2013,2,11,River,River
+19,2015,1,19,Independiente,Boca
+20,2018,2,2,Independiente,Boca
+21,2019,2,13,Racing,Racing
+22,2018,1,13,River,River
+23,2016,2,12,Independiente,River
+24,2013,2,15,Independiente,Independiente
+25,2014,1,14,Rosario Central,Rosario Central
+26,2014,2,5,Boca,Velez
+27,2018,2,5,Independiente,Velez
+28,2014,1,9,River,Rosario Central
+29,2012,1,19,River,River
+30,2014,1,5,River,River
+31,2010,2,14,Independiente,Boca
+32,2016,2,6,Racing,Boca
+33,2018,1,1,Boca,Boca
+34,2017,2,4,Rosario Central,Rosario Central
+35,2010,2,5,Boca,Racing
+36,2016,1,20,Rosario Central,Velez
+37,2015,1,17,Independiente,Boca
+38,2018,2,20,Racing,Velez
+39,2010,2,4,Rosario Central,River
+40,2015,1,14,Velez,Rosario Central
+41,2020,1,7,Boca,Velez
+42,2018,1,5,Racing,Racing
+43,2014,2,18,Independiente,Velez
+44,2020,1,3,Boca,Rosario Central
+45,2011,2,8,Boca,Independiente
+46,2018,1,15,Independiente,Boca
+47,2020,1,20,River,Independiente
+48,2011,1,16,Boca,Velez
+49,2017,1,1,Independiente,River
+50,2016,2,8,River,Velez
+51,2011,2,13,Rosario Central,Velez
+52,2016,1,5,Rosario Central,Racing
+53,2015,2,16,River,Racing
+54,2012,2,16,Boca,Boca
+55,2016,2,1,Independiente,Velez
+56,2013,1,19,Rosario Central,Racing
+57,2013,2,19,Rosario Central,Velez
+58,2011,2,13,Rosario Central,River
+59,2010,2,17,Velez,River
+60,2010,1,15,River,River
+61,2016,1,6,Racing,Racing
+62,2018,2,13,Boca,Boca
+63,2013,2,11,Velez,Racing
+64,2015,1,16,Boca,Independiente
+65,2014,1,16,Velez,Rosario Central
+66,2014,1,3,Racing,Independiente
+67,2017,2,16,Racing,Boca
+68,2019,2,12,Independiente,Rosario Central
+69,2020,2,19,Independiente,Boca
+70,2020,1,3,River,Velez
+71,2016,2,11,Boca,Racing
+72,2020,2,6,Racing,Rosario Central
+73,2020,1,4,Boca,Racing
+74,2020,1,16,Boca,Rosario Central
+75,2018,2,14,Racing,Rosario Central
+76,2011,2,10,Independiente,Racing
+77,2018,2,12,Velez,River
+78,2020,1,1,River,Racing
+79,2012,2,1,Rosario Central,River
+80,2016,1,3,Velez,Racing
+81,2015,2,17,River,River
+82,2014,1,7,River,Boca
+83,2010,2,4,River,Independiente
+84,2010,2,8,Racing,Rosario Central
+85,2013,1,14,Boca,Racing
+86,2014,1,17,Velez,Racing
+87,2016,1,2,Racing,Racing
+88,2010,2,10,Boca,Rosario Central
+89,2012,2,4,River,Independiente
+90,2012,1,20,Independiente,Rosario Central
+91,2019,1,3,Boca,Boca
+92,2017,2,14,River,Racing
+93,2012,2,13,Boca,Rosario Central
+94,2011,1,11,River,Rosario Central
+95,2020,2,7,River,Independiente
+96,2020,2,16,Racing,Rosario Central
+97,2017,2,20,River,Rosario Central
+98,2019,1,7,River,Velez
+99,2020,2,19,Velez,Boca
+100,2010,1,14,Racing,Racing
+101,2014,2,19,River,Independiente
+102,2013,1,5,Independiente,Boca
+103,2012,1,2,Boca,Rosario Central
+104,2016,1,10,Racing,River
+105,2016,1,4,Boca,Boca
+106,2017,2,10,River,Boca
+107,2015,2,3,Independiente,Velez
+108,2014,2,16,Velez,Boca
+109,2013,1,5,Rosario Central,Rosario Central
+110,2018,2,3,River,Rosario Central
+111,2010,2,2,Boca,Rosario Central
+112,2018,2,9,River,River
+113,2020,2,16,River,Rosario Central
+114,2010,1,19,Racing,Racing
+115,2019,2,19,Velez,Rosario Central
+116,2014,1,8,Rosario Central,Boca
+117,2015,2,16,Racing,Independiente
+118,2012,1,20,Racing,Velez
+119,2017,1,12,Racing,Independiente
+120,2015,1,2,River,Velez
+121,2015,1,4,Velez,Racing
+122,2016,1,3,Rosario Central,Racing
+123,2013,2,1,River,Racing
+124,2011,2,17,Racing,Rosario Central
+125,2018,2,11,River,Boca
+126,2018,1,17,Velez,Racing
+127,2018,1,3,Rosario Central,Velez
+128,2018,1,3,Boca,Racing
+129,2017,2,3,Independiente,Boca
+130,2019,1,6,Independiente,Boca
+131,2020,2,11,Racing,River
+132,2017,1,16,Boca,Velez
+133,2015,2,19,Independiente,Boca
+134,2020,1,2,River,River
+135,2011,2,19,Rosario Central,Boca
+136,2019,1,2,Velez,River
+137,2015,1,7,Independiente,Boca
+138,2015,2,6,Velez,Rosario Central
+139,2016,1,11,River,Boca
+140,2015,1,12,Independiente,Boca
+141,2010,1,7,Velez,River
+142,2015,1,10,River,Velez
+143,2017,2,3,Boca,Rosario Central
+144,2010,1,9,Racing,Racing
+145,2019,1,2,Independiente,Boca
+146,2012,1,9,Independiente,River
+147,2019,1,2,Velez,Independiente
+148,2020,1,3,Independiente,Racing
+149,2018,1,14,Velez,Rosario Central
+150,2019,2,4,Racing,Independiente
+151,2013,2,9,Rosario Central,Rosario Central
+152,2019,2,1,Rosario Central,Boca
+153,2014,2,5,Racing,Racing
+154,2015,1,13,Independiente,Independiente
+155,2017,1,9,River,Boca
+156,2010,1,17,Independiente,Racing
+157,2020,2,15,Boca,Rosario Central
+158,2010,1,3,Rosario Central,Rosario Central
+159,2015,1,2,Racing,Independiente
+160,2015,1,13,Independiente,Independiente
+161,2019,2,6,Independiente,Boca
+162,2017,2,5,River,River
+163,2018,2,14,Rosario Central,Velez
+164,2013,2,13,Independiente,Boca
+165,2014,2,1,Rosario Central,Rosario Central
+166,2019,1,11,River,Racing
+167,2013,1,12,Independiente,Velez
+168,2018,1,15,Independiente,Rosario Central
+169,2019,2,6,Boca,River
+170,2016,2,11,Velez,Rosario Central
+171,2019,2,9,Velez,River
+172,2011,1,1,Independiente,Independiente
+173,2016,1,15,Boca,Velez
+174,2018,1,19,Rosario Central,Boca
+175,2020,2,20,Racing,River
+176,2020,1,20,Velez,Racing
+177,2017,2,6,Racing,Rosario Central
+178,2020,2,10,Rosario Central,Rosario Central
+179,2019,2,12,Velez,Racing
+180,2020,1,3,River,River
+181,2012,2,3,Boca,Independiente
+182,2018,1,10,Boca,Velez
+183,2020,2,6,Racing,Velez
+184,2019,1,10,Rosario Central,Rosario Central
+185,2015,2,14,Boca,Velez
+186,2013,1,19,Velez,Racing
+187,2019,2,13,River,River
+188,2016,1,17,Rosario Central,Racing
+189,2015,1,2,Velez,Velez
+190,2013,2,20,Independiente,River
+191,2018,2,16,Racing,Rosario Central
+192,2012,2,4,Boca,Boca
+193,2020,2,19,Velez,River
+194,2018,1,12,Velez,Independiente
+195,2018,2,12,Independiente,Velez
+196,2020,2,19,Independiente,Racing
+197,2017,2,6,Racing,Boca
+198,2010,1,7,Boca,Racing
+199,2016,1,6,Boca,River
+200,2020,2,3,Racing,Rosario Central
+201,2016,2,13,Independiente,Racing
+202,2017,1,13,Boca,Velez
+203,2014,2,14,Racing,Racing
+204,2010,1,6,Racing,Velez
+205,2019,1,4,Racing,Velez
+206,2013,2,9,River,Independiente
+207,2015,1,11,Velez,Velez
+208,2011,1,8,Rosario Central,Velez
+209,2017,2,20,Racing,Independiente
+210,2010,1,12,Racing,Racing
+211,2014,1,3,Racing,Boca
+212,2017,2,2,River,Velez
+213,2017,2,1,Racing,Boca
+214,2015,1,8,River,River
+215,2014,1,16,Racing,Rosario Central
+216,2019,2,12,Racing,Racing
+217,2010,2,16,Boca,Boca
+218,2011,2,14,Velez,River
+219,2010,1,17,Velez,Rosario Central
+220,2016,2,9,Rosario Central,Rosario Central
+221,2016,2,6,Independiente,River
+222,2015,2,8,Velez,River
+223,2013,1,13,Velez,Independiente
+224,2012,1,8,Boca,Racing
+225,2019,2,2,Boca,Boca
+226,2010,1,13,Velez,Independiente
+227,2011,2,13,Rosario Central,Rosario Central
+228,2013,1,16,Velez,Velez
+229,2016,2,7,Racing,River
+230,2019,2,1,Racing,Velez
+231,2019,1,4,River,Independiente
+232,2018,2,15,Racing,River
+233,2015,1,11,Velez,Rosario Central
+234,2015,1,19,Rosario Central,Boca
+235,2014,1,4,River,Racing
+236,2012,2,13,Boca,Velez
+237,2015,2,13,Velez,River
+238,2020,1,11,River,River
+239,2012,2,4,Independiente,Velez
+240,2011,2,16,Racing,Independiente
+241,2014,1,1,Velez,River
+242,2015,1,19,Velez,Boca
+243,2012,2,3,Rosario Central,River
+244,2017,1,12,Rosario Central,Independiente
+245,2018,2,4,Racing,Boca
+246,2013,1,20,Rosario Central,Boca
+247,2013,1,6,Rosario Central,Velez
+248,2013,2,6,Racing,Rosario Central
+249,2014,2,20,Velez,Independiente
+250,2011,2,11,Rosario Central,Boca
+251,2011,1,18,Boca,River
+252,2020,1,20,Boca,Racing
+253,2013,1,19,Boca,Independiente
+254,2018,2,18,Rosario Central,Velez
+255,2019,1,17,Racing,Rosario Central
+256,2014,2,2,River,Independiente
+257,2012,1,18,Velez,Velez
+258,2016,1,19,Velez,Independiente
+259,2016,1,18,River,Boca
+260,2010,2,3,Racing,Velez
+261,2018,2,12,Independiente,River
+262,2019,1,19,Velez,Racing
+263,2019,1,14,Racing,Velez
+264,2016,1,14,Rosario Central,River
+265,2019,2,10,Velez,Rosario Central
+266,2010,1,12,Velez,Independiente
+267,2016,1,19,Rosario Central,Velez
+268,2016,1,11,Racing,Rosario Central
+269,2012,2,3,Rosario Central,Rosario Central
+270,2010,2,19,River,Independiente
+271,2010,1,6,Boca,Racing
+272,2017,1,19,Independiente,Boca
+273,2015,1,6,Racing,Velez
+274,2011,1,3,Velez,Boca
+275,2012,1,19,Velez,River
+276,2017,2,4,Boca,Independiente
+277,2018,2,19,Racing,Rosario Central
+278,2012,2,12,Independiente,Rosario Central
+279,2015,2,11,Boca,Velez
+280,2010,2,1,Boca,Racing
+281,2011,2,18,River,Boca
+282,2011,2,17,Independiente,River
+283,2020,1,15,Racing,Racing
+284,2013,2,13,Boca,Rosario Central
+285,2016,2,20,Independiente,Racing
+286,2010,2,8,Independiente,Velez
+287,2017,2,10,Racing,Boca
+288,2010,1,7,Racing,Racing
+289,2020,1,1,Racing,Velez
+290,2010,1,19,Boca,River
+291,2012,2,5,Racing,Boca
+292,2016,2,9,River,Racing
+293,2014,1,11,Rosario Central,Boca
+294,2018,1,10,Independiente,River
+295,2010,2,17,Rosario Central,Velez
+296,2020,2,4,Boca,Racing
+297,2013,1,7,Rosario Central,Rosario Central
+298,2015,1,19,Velez,Independiente
+299,2011,1,9,Independiente,Racing
+300,2010,1,16,Independiente,Boca
+301,2011,1,7,Independiente,River
+302,2019,1,6,River,Racing
+303,2014,1,18,Velez,Boca
+304,2014,2,5,River,Racing
+305,2017,2,3,Velez,Rosario Central
+306,2017,1,7,Velez,Rosario Central
+307,2013,2,20,River,Velez
+308,2019,1,14,River,Velez
+309,2015,2,8,Boca,Independiente
+310,2015,1,4,Rosario Central,River
+311,2019,2,4,Velez,Boca
+312,2014,2,11,Rosario Central,Boca
+313,2015,1,8,Racing,Velez
+314,2011,1,15,Boca,River
+315,2017,2,6,Velez,River
+316,2010,1,13,River,Boca
+317,2014,2,14,Velez,Boca
+318,2013,1,6,Rosario Central,Independiente
+319,2020,2,16,Independiente,Boca
+320,2020,2,15,Independiente,Racing
+321,2015,2,2,Independiente,Rosario Central
+322,2019,1,3,Independiente,Racing
+323,2015,1,18,Racing,Boca
+324,2012,1,10,Independiente,Independiente
+325,2016,2,16,Rosario Central,Racing
+326,2011,1,12,Velez,Racing
+327,2014,1,12,Racing,Velez
+328,2011,1,19,River,Velez
+329,2012,2,17,Rosario Central,Independiente
+330,2014,1,5,Boca,Independiente
+331,2016,2,15,Independiente,Rosario Central
+332,2015,2,9,Boca,Racing
+333,2017,2,17,Independiente,Velez
+334,2017,1,17,Boca,Rosario Central
+335,2013,1,10,Independiente,Boca
+336,2010,1,2,Racing,Independiente
+337,2017,1,15,Boca,Racing
+338,2019,2,13,Racing,Independiente
+339,2011,1,7,Racing,River
+340,2018,1,19,River,Velez
+341,2015,1,3,River,Racing
+342,2019,1,4,Velez,River
+343,2017,1,10,Rosario Central,Rosario Central
+344,2020,2,8,River,River
+345,2018,2,14,Velez,Racing
+346,2013,1,15,Velez,Racing
+347,2011,2,8,Boca,River
+348,2013,1,2,Velez,Racing
+349,2018,2,18,River,Racing
+350,2015,2,15,Racing,Independiente
+351,2017,1,19,Racing,Independiente
+352,2014,2,10,Independiente,River
+353,2017,1,20,Rosario Central,Rosario Central
+354,2015,2,1,Boca,Independiente
+355,2013,1,7,Rosario Central,Racing
+356,2011,2,7,River,River
+357,2020,1,1,River,Independiente
+358,2010,2,11,Independiente,Boca
+359,2017,1,15,Boca,Rosario Central
+360,2015,1,17,Independiente,River
+361,2018,1,3,Independiente,Racing
+362,2020,2,10,Boca,Boca
+363,2019,2,19,Independiente,Boca
+364,2013,2,8,Rosario Central,Independiente
+365,2018,2,10,River,River
+366,2017,2,19,Rosario Central,Rosario Central
+367,2017,2,9,Racing,River
+368,2020,1,16,Velez,Rosario Central
+369,2020,1,10,Independiente,River
+370,2016,2,11,Velez,Racing
+371,2014,2,20,Boca,Rosario Central
+372,2017,1,3,Independiente,Independiente
+373,2016,2,7,Independiente,Rosario Central
+374,2020,1,20,Velez,Racing
+375,2012,1,12,Velez,Racing
+376,2019,1,15,Independiente,River
+377,2019,1,11,Independiente,Racing
+378,2010,1,3,Velez,Boca
+379,2013,2,3,Independiente,River
+380,2019,1,5,Racing,Racing
+381,2012,1,10,Velez,Independiente
+382,2017,1,19,Rosario Central,River
+383,2012,2,12,River,Rosario Central
+384,2019,2,7,Racing,Racing
+385,2018,2,7,River,Boca
+386,2017,2,2,River,Boca
+387,2011,2,17,River,Boca
+388,2010,2,18,Rosario Central,Rosario Central
+389,2014,1,3,Velez,Boca
+390,2019,2,10,Velez,Independiente
+391,2019,1,16,Rosario Central,River
+392,2019,1,12,Racing,Independiente
+393,2017,2,15,River,River
+394,2020,1,1,Rosario Central,Velez
+395,2015,2,15,Boca,River
+396,2020,1,11,Independiente,Boca
+397,2011,1,5,Independiente,Rosario Central
+398,2019,1,10,Independiente,Racing
+399,2012,1,9,Racing,Independiente
+400,2020,1,9,River,Velez
+401,2020,2,13,Velez,Boca
+402,2018,2,18,Velez,Velez
+403,2010,2,3,River,Velez
+404,2018,1,9,Independiente,Racing
+405,2013,2,18,Independiente,Rosario Central
+406,2012,2,1,Boca,Rosario Central
+407,2018,2,20,Rosario Central,Velez
+408,2011,2,10,Velez,Independiente
+409,2018,2,10,Boca,Racing
+410,2018,2,20,Independiente,Boca
+411,2012,2,17,Velez,Rosario Central
+412,2016,2,5,Independiente,Boca
+413,2013,2,5,Independiente,Velez
+414,2016,1,6,Boca,River
+415,2015,2,9,Velez,River
+416,2015,1,11,Racing,River
+417,2016,2,5,Independiente,Rosario Central
+418,2012,1,3,Racing,Rosario Central
+419,2017,1,6,Racing,Velez
+420,2011,1,14,Racing,Boca
+421,2018,2,11,Rosario Central,Boca
+422,2020,2,13,Independiente,River
+423,2018,2,13,Racing,Velez
+424,2011,1,16,Velez,Independiente
+425,2020,2,13,Velez,Independiente
+426,2019,2,16,Velez,River
+427,2011,1,1,Rosario Central,River
+428,2012,1,14,Independiente,Boca
+429,2013,2,14,River,Independiente
+430,2012,2,13,River,Velez
+431,2019,2,11,Boca,Boca
+432,2019,2,15,Boca,Independiente
+433,2016,1,20,Velez,Independiente
+434,2020,1,2,River,Racing
+435,2013,1,9,Boca,Boca
+436,2016,1,6,Independiente,Velez
+437,2013,2,18,River,Boca
+438,2012,2,12,Racing,Boca
+439,2015,1,18,Velez,Racing
+440,2015,2,8,River,Racing
+441,2017,2,2,Independiente,Racing
+442,2013,1,15,Racing,River
+443,2010,1,5,Racing,Rosario Central
+444,2020,1,5,Rosario Central,Velez
+445,2020,2,13,Independiente,Velez
+446,2020,2,19,Racing,River
+447,2013,2,12,Velez,River
+448,2020,2,2,Racing,Velez
+449,2012,2,16,Boca,Racing
+450,2010,1,11,Velez,Independiente
+451,2018,2,11,Racing,Velez
+452,2015,1,15,Racing,River
+453,2017,2,19,Velez,Velez
+454,2014,2,11,River,Racing
+455,2020,1,4,Rosario Central,Racing
+456,2010,2,3,River,Independiente
+457,2016,1,9,Velez,Independiente
+458,2012,2,19,Boca,Rosario Central
+459,2010,2,15,River,Racing
+460,2012,1,3,Racing,Rosario Central
+461,2010,2,6,River,Independiente
+462,2015,2,14,Boca,Velez
+463,2017,1,9,Racing,Independiente
+464,2019,2,4,Racing,Racing
+465,2014,1,10,Rosario Central,River
+466,2011,1,3,River,Velez
+467,2020,1,7,Independiente,Racing
+468,2018,1,12,Independiente,Racing
+469,2017,1,1,Independiente,Velez
+470,2017,1,18,Boca,Independiente
+471,2017,1,18,Boca,Racing
+472,2019,2,9,Independiente,Rosario Central
+473,2013,2,18,Racing,Rosario Central
+474,2013,1,7,Boca,Velez
+475,2012,1,12,Boca,Velez
+476,2013,2,1,Rosario Central,Independiente
+477,2017,2,13,Racing,River
+478,2019,1,18,Racing,Racing
+479,2018,1,19,Independiente,Independiente
+480,2015,1,14,River,River
+481,2011,1,7,River,Velez
+482,2012,2,11,Velez,River
+483,2018,2,13,Racing,Boca
+484,2015,1,13,Boca,Rosario Central
+485,2014,1,1,Independiente,Independiente
+486,2018,1,16,Rosario Central,River
+487,2012,1,4,Racing,Independiente
+488,2013,2,12,Rosario Central,Velez
+489,2014,1,11,Velez,Boca
+490,2014,1,3,Rosario Central,River
+491,2020,2,3,Boca,River
+492,2017,2,12,River,Independiente
+493,2018,1,16,Velez,River
+494,2017,1,4,Rosario Central,Velez
+495,2012,2,14,Independiente,Rosario Central
+496,2019,1,10,Independiente,Racing
+497,2018,2,14,Boca,Racing
+498,2020,2,17,Independiente,Rosario Central
+499,2014,1,4,Rosario Central,Rosario Central
+500,2020,1,20,Boca,Rosario Central
+501,2012,1,17,Racing,Boca
+502,2012,1,14,River,River
+503,2018,1,8,Independiente,River
+504,2020,2,3,Racing,Racing
+505,2019,1,20,Velez,Rosario Central
+506,2020,2,19,Rosario Central,Rosario Central
+507,2010,1,19,Rosario Central,Independiente
+508,2010,1,8,River,Boca
+509,2012,2,13,Racing,River
+510,2017,2,20,Rosario Central,Racing
+511,2011,2,7,Rosario Central,Boca
+512,2012,1,19,Rosario Central,Independiente
+513,2019,1,10,Boca,Racing
+514,2015,2,17,Rosario Central,Velez
+515,2017,1,16,Velez,Boca
+516,2019,1,2,River,Racing
+517,2017,2,17,River,Rosario Central
+518,2014,1,12,Velez,Velez
+519,2014,1,18,Boca,Racing
+520,2015,1,13,Boca,Racing
+521,2015,2,19,Rosario Central,Rosario Central
+522,2016,1,6,Velez,Rosario Central
+523,2020,2,5,Independiente,Rosario Central
+524,2019,1,17,Independiente,River
+525,2011,1,1,Boca,Racing
+526,2014,2,2,Velez,Boca
+527,2020,2,6,Rosario Central,River
+528,2011,2,19,Velez,Racing
+529,2013,2,10,Boca,Velez
+530,2014,1,10,Independiente,Independiente
+531,2016,2,5,Racing,Rosario Central
+532,2019,1,12,Velez,Boca
+533,2015,1,5,Velez,Velez
+534,2020,1,15,Independiente,Rosario Central
+535,2014,1,4,Independiente,Racing
+536,2010,1,14,Boca,Racing
+537,2015,1,16,Velez,River
+538,2011,1,9,Rosario Central,Racing
+539,2019,2,15,Rosario Central,Rosario Central
+540,2017,2,17,Rosario Central,River
+541,2015,1,20,Rosario Central,Independiente
+542,2015,2,18,Velez,Racing
+543,2010,2,11,Racing,River
+544,2016,1,12,River,Racing
+545,2016,2,6,River,Velez
+546,2017,1,5,River,Velez
+547,2010,2,1,Rosario Central,Velez
+548,2010,2,17,Velez,Racing
+549,2015,1,17,Independiente,Velez
+550,2016,1,5,Racing,River
+551,2014,2,12,Rosario Central,Independiente
+552,2016,1,6,Rosario Central,Independiente
+553,2014,1,4,Velez,River
+554,2017,1,2,Boca,Velez
+555,2017,2,18,Rosario Central,Racing
+556,2012,2,15,Boca,Racing
+557,2017,1,14,Boca,Velez
+558,2017,1,20,Rosario Central,Boca
+559,2010,1,6,Independiente,Rosario Central
+560,2019,1,18,River,Independiente
+561,2010,1,9,Boca,Independiente
+562,2020,2,20,Velez,Rosario Central
+563,2020,1,16,Velez,Velez
+564,2015,2,14,Independiente,River
+565,2012,2,5,River,Racing
+566,2010,2,4,Rosario Central,Racing
+567,2020,2,5,River,River
+568,2013,2,6,Independiente,Independiente
+569,2010,1,8,Independiente,River
+570,2012,2,15,Independiente,Independiente
+571,2012,2,16,Rosario Central,Racing
+572,2016,2,13,Racing,River
+573,2017,2,16,Boca,River
+574,2019,1,14,Boca,Independiente
+575,2011,1,4,Velez,Independiente
+576,2011,2,18,Velez,Racing
+577,2011,2,19,Independiente,Racing
+578,2020,2,16,Boca,Rosario Central
+579,2014,1,6,Velez,Rosario Central
+580,2010,1,15,Racing,Racing
+581,2020,1,7,River,Boca
+582,2015,2,11,Racing,Velez
+583,2012,2,10,Rosario Central,Rosario Central
+584,2018,2,4,Racing,Independiente
+585,2015,1,19,Rosario Central,Racing
+586,2010,1,14,River,River
+587,2018,1,14,Velez,Independiente
+588,2014,1,6,Independiente,River
+589,2011,1,15,Independiente,Independiente
+590,2011,1,9,Boca,River
+591,2010,1,16,Independiente,Velez
+592,2018,1,7,Independiente,Rosario Central
+593,2020,2,11,Velez,Rosario Central
+594,2019,1,8,Rosario Central,Rosario Central
+595,2016,1,15,Boca,Independiente
+596,2020,2,5,Boca,Independiente
+597,2019,1,14,Rosario Central,Racing
+598,2010,2,19,Boca,Rosario Central
+599,2011,2,7,River,Boca
+600,2020,2,15,Independiente,River
+601,2018,1,2,Boca,Boca
+602,2011,1,3,Racing,Velez
+603,2018,1,12,Velez,River
+604,2011,1,15,Boca,Boca
+605,2020,1,14,Rosario Central,Independiente
+606,2014,1,16,Boca,River
+607,2013,2,5,Rosario Central,Rosario Central
+608,2011,1,7,Racing,River
+609,2011,1,7,Rosario Central,Velez
+610,2014,1,4,Boca,Boca
+611,2017,2,18,River,Independiente
+612,2016,1,15,Velez,Independiente
+613,2011,1,1,Rosario Central,Independiente
+614,2019,2,7,Rosario Central,Boca
+615,2016,1,17,Racing,Boca
+616,2012,2,13,Boca,Velez
+617,2020,2,16,Racing,Independiente
+618,2020,1,14,Racing,Rosario Central
+619,2015,1,8,Boca,River
+620,2020,1,19,Rosario Central,Boca
+621,2014,2,3,Boca,River
+622,2020,2,7,Boca,Independiente
+623,2016,2,17,Velez,Racing
+624,2020,1,5,Rosario Central,River
+625,2013,2,11,Boca,Boca
+626,2020,1,11,Independiente,Velez
+627,2014,1,7,Velez,Boca
+628,2014,1,13,Independiente,Boca
+629,2011,1,3,River,Racing
+630,2016,2,9,Rosario Central,River
+631,2010,2,16,Velez,Velez
+632,2013,1,17,Racing,Independiente
+633,2017,1,18,Velez,Boca
+634,2019,1,6,Boca,Independiente
+635,2016,2,10,Boca,River
+636,2020,2,20,River,Velez
+637,2015,1,19,Racing,Rosario Central
+638,2014,1,16,Boca,Velez
+639,2019,1,5,Rosario Central,Velez
+640,2012,2,18,Velez,Rosario Central
+641,2016,2,5,Independiente,Racing
+642,2013,1,1,Velez,Racing
+643,2015,2,2,Independiente,River
+644,2018,1,7,Independiente,Rosario Central
+645,2014,2,12,Velez,Boca
+646,2011,2,1,Racing,Rosario Central
+647,2020,1,12,Independiente,Independiente
+648,2014,1,1,Boca,Boca
+649,2020,2,4,Boca,Independiente
+650,2011,1,18,Racing,Racing
+651,2018,1,19,Velez,River
+652,2014,2,1,River,Velez
+653,2017,2,6,Rosario Central,Independiente
+654,2017,2,13,Rosario Central,Velez
+655,2017,1,2,Rosario Central,Rosario Central
+656,2016,1,5,Rosario Central,Velez
+657,2011,2,5,Rosario Central,Racing
+658,2019,2,1,Rosario Central,Boca
+659,2017,2,6,Rosario Central,Boca
+660,2017,1,1,Racing,Velez
+661,2018,1,5,Rosario Central,Boca
+662,2015,1,8,River,Velez
+663,2015,2,20,River,Independiente
+664,2018,1,10,Velez,Racing
+665,2019,1,15,Boca,River
+666,2020,1,6,Independiente,Racing
+667,2010,1,9,Racing,Rosario Central
+668,2014,1,6,Independiente,Boca
+669,2014,2,19,Rosario Central,Rosario Central
+670,2010,2,4,River,Racing
+671,2014,2,17,Rosario Central,Independiente
+672,2013,2,8,Independiente,Racing
+673,2015,1,13,River,Rosario Central
+674,2018,1,6,Independiente,Racing
+675,2012,2,3,Boca,Independiente
+676,2020,1,20,Independiente,River
+677,2018,1,20,River,Independiente
+678,2017,2,3,Independiente,Independiente
+679,2011,1,10,River,Boca
+680,2010,2,10,Rosario Central,Independiente
+681,2015,1,16,Velez,Velez
+682,2014,1,16,Boca,Racing
+683,2018,1,13,Independiente,Rosario Central
+684,2019,2,9,Racing,Boca
+685,2016,1,9,Boca,Rosario Central
+686,2016,1,13,River,Racing
+687,2018,2,3,Racing,Racing
+688,2010,2,4,Velez,Velez
+689,2012,2,15,Velez,Velez
+690,2016,1,4,Racing,River
+691,2013,1,6,Independiente,Independiente
+692,2016,2,13,Velez,Racing
+693,2019,2,15,River,River
+694,2017,1,19,Independiente,Independiente
+695,2012,2,5,Velez,Independiente
+696,2012,2,11,Independiente,Racing
+697,2018,1,16,Velez,River
+698,2018,1,15,Rosario Central,Velez
+699,2019,2,15,River,Boca
+700,2012,2,19,River,Rosario Central
+701,2010,2,4,Boca,Rosario Central
+702,2014,1,4,River,Independiente
+703,2018,2,9,Racing,Velez
+704,2019,2,10,Rosario Central,Independiente
+705,2016,1,19,River,Rosario Central
+706,2011,2,10,Independiente,Rosario Central
+707,2016,2,15,Rosario Central,River
+708,2015,2,12,Racing,Rosario Central
+709,2014,1,12,Independiente,Boca
+710,2018,2,14,Velez,Independiente
+711,2013,2,10,Velez,Racing
+712,2020,2,20,Racing,Boca
+713,2017,2,10,Racing,Independiente
+714,2015,1,13,Racing,Racing
+715,2012,2,17,Velez,River
+716,2018,2,9,Independiente,Independiente
+717,2016,1,2,Independiente,Independiente
+718,2020,2,18,River,River
+719,2013,2,8,Boca,Independiente
+720,2012,1,16,Boca,Rosario Central
+721,2019,2,13,Racing,Velez
+722,2010,2,18,Racing,Racing
+723,2018,1,15,Boca,Racing
+724,2015,1,10,Independiente,Velez
+725,2013,1,3,Rosario Central,Boca
+726,2010,1,5,Velez,River
+727,2020,2,4,Rosario Central,Boca
+728,2017,1,11,Velez,Velez
+729,2017,2,20,Independiente,Rosario Central
+730,2014,1,3,Rosario Central,Independiente
+731,2018,2,6,Velez,Rosario Central
+732,2010,1,8,Velez,River
+733,2019,2,9,Rosario Central,River
+734,2010,1,20,Boca,Boca
+735,2012,1,11,Boca,Independiente
+736,2013,1,6,Racing,Rosario Central
+737,2018,1,2,Racing,Racing
+738,2010,2,13,River,Racing
+739,2013,1,18,Boca,Boca
+740,2013,1,13,Rosario Central,Rosario Central
+741,2012,1,13,Rosario Central,Racing
+742,2019,1,7,Racing,Racing
+743,2011,1,6,Boca,Independiente
+744,2017,1,17,River,Boca
+745,2018,1,10,Rosario Central,Independiente
+746,2018,1,9,Rosario Central,Independiente
+747,2016,2,11,Independiente,Boca
+748,2014,2,5,Velez,Boca
+749,2011,1,4,River,Rosario Central
+750,2014,2,5,River,Independiente
+751,2015,1,18,Racing,Independiente
+752,2010,1,3,Independiente,Rosario Central
+753,2010,1,2,Rosario Central,Boca
+754,2013,1,6,Boca,Rosario Central
+755,2018,2,6,Rosario Central,Independiente
+756,2015,2,15,Velez,Racing
+757,2019,2,10,Rosario Central,Rosario Central
+758,2011,1,18,Independiente,Boca
+759,2017,2,6,Independiente,Boca
+760,2012,1,3,River,Boca
+761,2018,2,15,River,Racing
+762,2015,2,10,Velez,Velez
+763,2016,1,1,Independiente,Rosario Central
+764,2011,2,15,Boca,Racing
+765,2016,1,16,Velez,Racing
+766,2011,1,5,River,Rosario Central
+767,2011,1,9,Rosario Central,Velez
+768,2011,2,4,Boca,Independiente
+769,2018,2,15,Boca,Independiente
+770,2013,2,10,Independiente,Rosario Central
+771,2010,1,18,Independiente,Racing
+772,2019,2,17,Rosario Central,Racing
+773,2011,2,2,Independiente,Rosario Central
+774,2017,1,12,Independiente,Racing
+775,2017,1,1,Velez,Independiente
+776,2017,2,7,Racing,Independiente
+777,2010,1,10,Racing,Racing
+778,2016,1,3,Velez,Independiente
+779,2011,1,20,Racing,Rosario Central
+780,2018,1,14,River,Rosario Central
+781,2020,2,16,Independiente,River
+782,2010,1,3,Independiente,Independiente
+783,2015,2,5,River,Independiente
+784,2011,2,13,River,Racing
+785,2013,1,6,Rosario Central,Independiente
+786,2015,1,20,Velez,Independiente
+787,2017,2,15,Boca,Boca
+788,2013,2,2,Rosario Central,Rosario Central
+789,2013,2,12,Racing,Velez
+790,2018,2,20,Boca,Racing
+791,2010,2,5,Velez,Rosario Central
+792,2017,1,1,Boca,Velez
+793,2014,2,8,Boca,Racing
+794,2015,2,1,Rosario Central,Rosario Central
+795,2011,2,19,Rosario Central,Racing
+796,2011,1,3,River,Velez
+797,2017,1,1,Rosario Central,River
+798,2014,2,11,Independiente,Racing
+799,2020,2,13,Racing,Rosario Central
+800,2017,1,13,River,Boca
+801,2019,2,2,Independiente,Boca
+802,2019,2,1,Rosario Central,River
+803,2020,1,18,River,River
+804,2017,2,20,Rosario Central,Boca
+805,2017,2,19,Velez,Rosario Central
+806,2016,2,7,Racing,Rosario Central
+807,2014,2,4,Boca,River
+808,2018,2,6,Independiente,River
+809,2010,2,4,Rosario Central,Boca
+810,2020,2,13,Racing,River
+811,2010,2,7,Racing,Racing
+812,2012,2,19,Boca,Velez
+813,2016,1,3,Racing,Boca
+814,2015,1,14,Velez,Boca
+815,2010,2,7,Rosario Central,Independiente
+816,2014,1,9,Boca,Boca
+817,2010,1,15,Racing,Boca
+818,2018,2,1,River,Rosario Central
+819,2011,2,20,River,Independiente
+820,2014,1,1,Racing,River
+821,2015,1,17,River,Velez
+822,2019,2,20,Velez,Velez
+823,2010,2,10,Racing,Independiente
+824,2015,1,3,Racing,Rosario Central
+825,2018,2,12,Velez,Rosario Central
+826,2010,1,7,River,Velez
+827,2011,1,10,Velez,Rosario Central
+828,2020,2,14,River,Rosario Central
+829,2019,2,5,Velez,Velez
+830,2016,1,3,Rosario Central,River
+831,2012,2,10,River,Independiente
+832,2017,1,16,Boca,Velez
+833,2018,1,18,Racing,Rosario Central
+834,2020,1,14,Independiente,Independiente
+835,2020,2,11,River,Independiente
+836,2015,2,13,River,River
+837,2012,1,1,River,Boca
+838,2020,1,12,River,Rosario Central
+839,2012,2,8,Boca,Independiente
+840,2015,1,19,River,Boca
+841,2018,1,14,River,River
+842,2020,2,2,Independiente,River
+843,2010,1,11,River,Boca
+844,2013,2,5,Racing,Independiente
+845,2012,2,8,River,Racing
+846,2015,1,8,Racing,River
+847,2016,1,17,Rosario Central,Velez
+848,2013,1,1,Independiente,Velez
+849,2010,1,5,Boca,Racing
+850,2016,1,6,Boca,Rosario Central
+851,2020,2,16,Racing,Velez
+852,2013,2,8,Rosario Central,Racing
+853,2020,1,10,River,Velez
+854,2012,2,7,Velez,Boca
+855,2011,1,4,Racing,Rosario Central
+856,2019,1,15,Boca,River
+857,2013,1,20,Racing,Rosario Central
+858,2019,1,10,Racing,Racing
+859,2015,1,16,Velez,Boca
+860,2016,2,15,Velez,River
+861,2020,1,12,Independiente,River
+862,2020,2,10,River,River
+863,2011,1,16,Velez,Racing
+864,2019,1,10,Velez,River
+865,2015,2,7,Independiente,Boca
+866,2012,2,4,Boca,Racing
+867,2014,2,8,Velez,Independiente
+868,2016,1,9,River,Boca
+869,2016,2,10,Rosario Central,Velez
+870,2019,2,4,Velez,Rosario Central
+871,2014,1,19,Racing,River
+872,2017,2,9,Boca,Rosario Central
+873,2012,2,2,Independiente,Rosario Central
+874,2016,2,13,Independiente,Boca
+875,2016,1,6,Boca,Racing
+876,2015,1,17,Independiente,Velez
+877,2013,1,1,Rosario Central,Rosario Central
+878,2011,1,18,Independiente,Boca
+879,2011,2,9,Racing,Boca
+880,2013,2,1,Independiente,Boca
+881,2012,1,18,River,Rosario Central
+882,2017,2,16,Racing,Rosario Central
+883,2016,1,15,River,Velez
+884,2017,2,10,Independiente,Velez
+885,2016,1,8,Velez,Boca
+886,2012,2,19,River,Racing
+887,2015,2,16,Rosario Central,Racing
+888,2016,2,13,Velez,Boca
+889,2019,1,20,River,Velez
+890,2017,2,9,River,Racing
+891,2018,1,8,Velez,Independiente
+892,2017,1,14,River,River
+893,2014,2,10,Racing,Independiente
+894,2013,1,2,Velez,River
+895,2020,2,2,Boca,Racing
+896,2012,1,13,Velez,River
+897,2018,2,17,Boca,Rosario Central
+898,2014,2,14,Velez,Boca
+899,2013,2,3,Independiente,Independiente
+900,2019,1,20,River,Velez
+901,2019,2,6,River,Rosario Central
+902,2015,1,17,Boca,Racing
+903,2019,1,15,Boca,Independiente
+904,2017,1,8,Rosario Central,Rosario Central
+905,2014,1,18,Boca,Rosario Central
+906,2019,1,19,Boca,Racing
+907,2020,2,17,Boca,Independiente
+908,2014,1,18,River,Boca
+909,2012,2,4,River,Rosario Central
+910,2016,2,8,River,Independiente
+911,2018,2,2,Rosario Central,Velez
+912,2015,2,13,Rosario Central,Racing
+913,2020,1,6,Independiente,Rosario Central
+914,2020,2,1,River,River
+915,2018,1,4,Racing,Rosario Central
+916,2015,2,13,Racing,Velez
+917,2014,2,2,Rosario Central,Boca
+918,2011,1,18,Boca,Independiente
+919,2010,1,13,Independiente,Velez
+920,2018,2,2,Independiente,Boca
+921,2018,1,4,Velez,Racing
+922,2012,2,6,Boca,Independiente
+923,2018,2,1,Rosario Central,Boca
+924,2020,1,6,Boca,Boca
+925,2020,2,16,River,Racing
+926,2018,1,12,Boca,River
+927,2011,1,15,Boca,Independiente
+928,2010,1,15,Rosario Central,Independiente
+929,2020,2,14,River,Rosario Central
+930,2020,2,2,Velez,Velez
+931,2013,1,15,Boca,Racing
+932,2014,2,6,Boca,River
+933,2011,2,20,Boca,Velez
+934,2020,2,8,River,Boca
+935,2018,2,8,Velez,Velez
+936,2019,2,19,Racing,Boca
+937,2020,2,15,Racing,Boca
+938,2010,2,20,Velez,Boca
+939,2019,2,20,River,Rosario Central
+940,2010,1,11,Independiente,Boca
+941,2015,2,13,River,Racing
+942,2017,1,16,Independiente,Racing
+943,2020,2,11,Rosario Central,Racing
+944,2016,1,19,Racing,Independiente
+945,2019,1,6,Velez,Boca
+946,2012,2,4,Racing,Racing
+947,2011,2,10,Velez,River
+948,2014,2,19,Independiente,Boca
+949,2016,1,5,Independiente,Boca
+950,2013,2,4,Rosario Central,Rosario Central
+951,2012,2,16,Racing,Rosario Central
+952,2020,2,3,Racing,Rosario Central
+953,2019,2,2,Boca,Racing
+954,2018,2,9,Independiente,River
+955,2017,2,13,Independiente,Rosario Central
+956,2014,1,6,River,Independiente
+957,2016,1,3,Racing,Racing
+958,2013,1,16,Velez,River
+959,2014,2,3,Independiente,Velez
+960,2020,1,8,Rosario Central,Independiente
+961,2019,2,19,Velez,Independiente
+962,2018,1,4,Boca,Racing
+963,2018,1,20,River,Boca
+964,2018,2,17,River,Racing
+965,2014,2,3,Rosario Central,Rosario Central
+966,2013,1,8,Racing,Velez
+967,2020,2,9,Racing,Velez
+968,2011,1,14,Independiente,Boca
+969,2014,2,16,Independiente,River
+970,2011,1,5,Boca,Boca
+971,2012,2,17,Rosario Central,Rosario Central
+972,2013,1,3,Velez,River
+973,2016,2,14,Independiente,Velez
+974,2013,1,19,Velez,Independiente
+975,2016,1,13,River,River
+976,2011,1,1,Velez,River
+977,2011,1,12,Racing,Independiente
+978,2015,2,12,Boca,Boca
+979,2020,2,8,Boca,Boca
+980,2019,1,5,Boca,Rosario Central
+981,2011,2,14,Velez,River
+982,2011,1,11,Velez,Rosario Central
+983,2018,2,4,River,River
+984,2015,2,16,Independiente,Independiente
+985,2016,2,14,Independiente,River
+986,2013,1,5,River,River
+987,2013,2,12,Boca,Boca
+988,2017,1,8,Boca,Velez
+989,2011,1,7,Boca,River
+990,2018,1,13,Racing,Independiente
+991,2019,2,10,Racing,River
+992,2012,1,5,River,Rosario Central
+993,2018,2,2,Boca,Independiente
+994,2019,2,6,Rosario Central,River
+995,2015,1,9,Rosario Central,Independiente
+996,2012,2,5,Velez,Racing
+997,2018,1,4,Racing,Independiente
+998,2017,1,14,Racing,Rosario Central
+999,2018,2,2,Racing,Rosario Central
+1000,2012,2,16,Independiente,Velez

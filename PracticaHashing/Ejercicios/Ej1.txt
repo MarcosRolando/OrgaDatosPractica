@@ -1,0 +1,9 @@
+1) Al construir una función de hashing perfecta y mínima con el método visto en clase, explique por que es necesario que M sea mayor a N.
+
+N: cantidad de claves
+M: tamanio de la tabla de hash
+
+Es obvio que M debe ser al menos igual (o mayor) a N dado que si fuera menor no te entrarian todas las claves en la tabla de hash (N claves no
+entran en M espacios si no queres colisiones). No se por que no valdria el caso donde M = N. /*CONSULTAR ESTO!!!*/
+
+

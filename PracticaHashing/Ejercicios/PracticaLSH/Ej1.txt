@@ -1,0 +1,42 @@
+1) Tenemos la siguiente tabla representando el valor de 6 minhashes para tres documentos:
+
+        D1 	D2 	D3
+MH1	 	1   0   1
+MH2 	3 	1 	3
+MH3 	1 	2 	1
+MH4	 	2 	2   3
+MH5 	0 	0 	2
+MH6 	0 	0 	2
+
+Se usa b = 2 y r = 3. Se decide usar 7 buckets para cada banda.
+
+Encontrar una única función de hashing perteneciente a una flia universal LSH(r1,r2,r3) de forma
+tal que en la primer banda solo D1 y D3 sean candidatos a ser similares pero en la segunda banda
+los tres documentos sean candidatos a ser similares.
+
+h(1, 3, 1) = h(0, 1, 2) #Para la primer banda tengo esta condicion
+h(2, 0, 0) != h(3, 2, 2) #Para la segunda banda tengo esta condicion
+
+            r -> (claves - 1)
+=> h(x) = [ E    ( (Ai * Xi) % p) ] % m, donde p es primo y m < p (m = cantidad de buckets en una banda)
+          i = 0
+
+Como m = 7 => m ya es primo asi que vuelo p.
+
+            2
+=> h(x) = [ E   ( (Ai * Xi) % 7) ]
+          i = 0
+
+(A * 1 + B * 3 + C * 1) % 7 = (B * 1 + C * 2) % 7
+(A * 2 + C * 0) % 7 != (A * 3 + B * 2 + C * 2) % 7
+
+Probando por la fuerza (lo programas) una solucion posible es
+
+A = 1
+B = 2
+C = 1
+
+Finalmente
+
+h(x) = (X1 + 2*X2 + X3) % 7
+

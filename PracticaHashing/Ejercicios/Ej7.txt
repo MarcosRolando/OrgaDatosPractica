@@ -1,0 +1,22 @@
+7) Determinar si las siguientes afirmaciones son V / F justificando la respuesta:
+
+a) Una función de hashing criptográfica produce muy pocas colisiones.
+
+Esto es verdadero, ya que si no produjera pocas colisines tendrias un problema de seguridad importante ver desps
+
+b) La construcción de DavisMeyer es necesaria para que la función de hashing produzca muy pocas colisiones
+
+ver desps
+
+c) El efecto avalancha se produce cuando muchas claves hashean a un mismo valor generando muchas colisiones .
+
+Falso, el efecto avalancha es cuando un cambio pequenio en la clave produce muchos cambios en valor producido
+por la funcion de hashing (esto es, claves parecidas tienen hasheos muy diferentes).
+
+d) Una función de hashing para strings debe poder generar el resultado muy rápidamente.
+
+ver despues
+
+e) Utilizando una función de hashing con resolución de colisiones Hopscotch de distancia màxima 4 me aseguro insertar como mínimo 4 sinonimos
+
+ver despues

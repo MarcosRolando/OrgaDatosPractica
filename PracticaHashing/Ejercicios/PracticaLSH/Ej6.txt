@@ -1,0 +1,18 @@
+6) Se tienen los siguientes puntos en el plano: (2,3) (3,4) (24,30) (21,32).
+Sean el siguiente vector al azar: (5,3). Indique cuál debería ser el valor de w
+para que al aplicar LSH para la distancia euclideana los puntos 1 y 2 sean
+semejantes pero los puntos 3 y 4 no.
+
+
+Tenemos por enunciado que mh((2, 3)) = mh((3, 4)) y mh((24, 30)) != mh((21, 32))
+
+Para el metodo de proyecciones aleatorias la funcion de minhash es
+
+mh(x) = floor( (X * Vi + a) / w )
+
+donde en este caso quedaría
+
+mh(x) = floor( (X * (5, 3) + a) / 2 ) , siendo X los puntos del enunciado
+
+Con fuerza bruta de Python llego a que a = 0 y w = 14 cumplen lo pedido.
+

@@ -1,0 +1,6 @@
+3) Usando LSH en una construcción de 5 ANDs y 3 Ors se observa que algunos pares de
+documentos que deberían ser candidatos a ser similares no lo son. ¿Qué cambiaría?
+
+Aumentaria la cantidad de ORs o sino disminuiria la cantidad de ANDs, cualquiera de estas
+2 operaciones disminuyen la cantidad de falsos negativos (pero aumentarian la cantidad
+de falsos positivos).

@@ -1,0 +1,64 @@
+3) Reuters quiere organizar un gran repositorio de artículos periodísticos (en el mismo
+idioma) que son publicados online por todos los medios asociados a ellos en el mundo.
+A partir de una publicación de un artículo original que realiza Reuters los distintos medios
+que tienen asociados en el mundo toman el artículo y lo re-publican. Este proceso de
+re-publicación consiste en realizar pequeñas modificaciones así como el agregado de
+contenido específico del medio (por ejemplo, links a contenido relacionado del propio
+medio, publicidad, titulares locales para generar impacto u otra información).
+
+El objetivo del proyecto que nos plantean es poder detectar cuales son todos los artículos
+periodísticos derivados de un artículo base creado por Reuters que han sido publicados
+por los medios asociados en todo el mundo.
+
+1) Describa en forma detallada un esquema de LSH a partir del cual puede resolver el
+objetivo propuesto por Reuters. Es de vital importancia que sea lo más detallado posible
+indicando a qué representación de datos se debe llevar los artículos, qué tipo de distancia
+utiliza, además de describir cómo seria el funcionamiento completo y la estructura de todo
+el esquema para resolver el problema.
+(15pts)
+
+2) Como parte del proceso de re-publicación de los artículos cada medio asociado a
+Reuters realiza modificaciones al contenido que se publica (por ejemplo links
+relacionados, titulares específicos para generar impacto o la inclusión de publicidad en el
+texto). Dado que contamos con la información de que medio asociado publico cada
+artículo y considerando lo aprendido en índices invertidos ¿Que pre-procesamiento cree
+que se podría realizar sobre los articulos para evitar el impacto de estas modificaciones en
+el texto en el esquema de LSH? . (10pts)  ESTE NO LO SABEMOS HACER PARA EL PARCIAL, NO LO TOMAN
+
+
+1) La idea seria separar el documento en n-shingles (donde n es la longitud en caracteres
+de cada shingle, por poner un ejemplo podria ser algun n entre 5 y 10, pero realmente que tan bueno sea
+el n va a depender de los datos y no los tenemos. Una vez determinada la longitud de los shingles se procesa el documento
+en base al cual se quieren comparar el resto, extrayendo de este los shingles en cuestion (es decir si elegimos
+5-shingles, se extraeran todos los shingles de longitud 5 del documento de Reuters) quedandonos entonces
+con el conjunto de shingles que se utilizara para analizar los otros documentos.
+
+Una vez hecho esto nos armamos una matriz donde las filas serian los documentos y las
+columnas los minhashes (podria ser al reves tambien, no cambia la idea general). Seteamos
+los valores iniciales de los elementos de la matriz en un numero muy grande que podriamos pensarlo como
+infinito. Luego para cada documento tomamos los shingles que tiene presente del de Reuters y le aplicamos todas las funciones de
+minhash, donde cada una de estas nos devuelve un valor entre 0 y la cantidad de shingles - 1 del documento
+de Reuters, y verificamos entonces si ese valor es menor al que guarda el elemento de la matriz para la posicion
+M(Di, Mhi) (Di es el documento y Mhi es la funcion de minhash). Si es menor reemplazamos el elemento de esa
+matriz por el calculado con el minhash, sino no. (Esto seria lo mismo que conseguir la primera posicion con un 1 en el ordenamiento random de la matriz de shingles
+y documentos).
+
+Finalmente habria que analizar los valores de r y b, donde r*b = cant de minhashes.
+b seria la cantidad de bandas utilizadas mientras que r seria la cantidad de funciones de minhash
+por banda (cada banda tiene funciones distintas de minhash, no se comparten entre si)
+Como el enunciado no pone ninguna restriccion en la eleccion de r y b, podriamos a priori
+elegir por cualquier combinacion que cumpla la relacion previamente escrita, el problema vendria en que a menor b tendremos mayor cantidad
+de falsos negativos mientras que a menor r tendriamos mayor cantidad de falsos positivos.
+En la practica, el valor de r y b se eligira de acuerdo a la probabilidad de falsos positivos/negativos que se deseen
+y a la distancia de Jaccard a la cual se consideren documentos semejantes o no. Solo por poner un ejemplo,
+si consideramos el caso donde r > 1 y b > 1 entonces para cada banda b se aplica una funcion de hashing
+h la cual recibe los valores de los minhashes de esa banda para la clave (en este caso, los documentos)
+y da como resultado la posicion en la tabla. Tendremos entonces un maximo de b posiciones para el documento
+en la tabla de hash. Finalmente la union de los similares a ese documento (siendo los similares aquellos
+que se hashean a la misma posicion que el documento) se analizan para chequear que no sean falsos positivos,
+y aquellos que no lo sean finalmente seran los similares al documento procesado.
+
+
+
+
+

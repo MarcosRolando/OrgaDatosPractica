@@ -1,0 +1,92 @@
+6) Dado los documentos:
+
+D1: BATMAN JOKER BATMAN PINGUINO
+D2: ACERTIJO GORDON JOKER
+D3: BATMAN ACERTIJO PINGUINO
+D4: PINGUINO GATUBELA BARBARA
+
+a) Construir el índice invertido usando concatenación de términos y utilizando codificación de
+distancias en tamaño fijo para los punteros de documentos. Indicar el paso a paso en la construcción y
+todos los archivos que componen el índice final. (4 pts)
+
+b) Resolver la consulta de frase "BATMAN PINGUINO", explicando paso a paso. (2 pts)
+
+c) Indique qué información agregaria al índice para resolver la consulta de frase más eficientemente. (2
+pts)
+
+d) Indique para el punto b cuantos accesos se realizaron. (2 pts)
+
+
+Respuestas:
+
+a)
+
+0       8      15    21      29    35   40
+ACERTIJOBARBARABATMANGATUBELAGORDONJOKERPINGUINO
+
+Representaciond de la codificacion de los documentos con 2 bits fijos (usando distancias obviamente)
+Todos los numeros son 1 menos en binario (ejemplo el 1 seria el 0, el 2 seria el 1, etc)
+
+1 -> 00
+2 -> 01
+3 -> 10
+4 -> 11
+
+
+terminos    |     documentos
+            |
+0           |     010000 000001 #En realidad no va separado pero lo hacemos por documento para no perdernos
+8           |     110010
+15          |     00010001 010000
+21          |     110001
+29          |     010001
+35          |     000001 000010
+40          |     000011 010010 000000
+
+0            12     18             32     38     44           56
+010000000001 110010 00010001010000 110001 010001 000001000010 000011010010000000 #dejamos espacios para poder debuggear mas facil pero no irian
+
+terminos    |     documentos
+            |
+0           |     0
+8           |     12
+15          |     18
+21          |     32
+29          |     38
+35          |     44
+40          |     56
+
+
+b)
+
+Empezas haciendo una busqueda binaria en la columna de terminos hasta encontrar cada uno (es decir primero buscas
+por ejemplo los documentos que tengna el termino BATMAN y luego los que tengan el termino PINGUINO o viceversa y luego harias una
+AND con los documentos que obtengas de resultado). Finalmente tenes que chequear que los documentos
+que obtuviste contengan los terminos BATMAN y PINGUINO en posiciones consecutivas, teniendo primero a BATMAN y luego
+a PINGUINO. Aquellos documentos que cumplan con eso seran los resutlados de la consulta (si ninguno cumple
+entonces la consulta retorna nada).
+
+Resolviendo obtendriamos el documento D1 unicamente.
+
+c)
+
+nani, comprate un SSD y listo man
+
+d)
+
+Accedes primero al 21, luego al 8 y luego finalmente al 15 (que es BATMAN) y luego un acceso mas a disco
+para acceder a los documentos. Por cada acceso al indice tenes que ir al array de terminos para chequear que
+termino es (a ver si es BATMAN o un termino mayor o menor). Entonces tendrias 3 accesos a indice primero, por cada
+acceso a indice tenes el correspondiente acceso al array (acceso a disco) y finalmente cuando encontraste BATMAN
+tendrias un acceso mas a indice (el siguiente) para ver hasta donde tenes que leer el puntero, y finalmente un ultimo acceso a disco
+que seria para el array de bits de los documentos para leer lo que corresponda. En total entonces para BATMAN tendrias
+8 accesos.
+
+Luego para PINGUINO siguiendo la misma logica accederias primero al 21 luego a 35 y luego a 40.
+Tendrias entonces para PINGUINO tambien 8 accesos (si bien no hay un siguiente termino luego de
+PINGUINO entendemos que deberias chequear alguna variable de longitud de la tabla asi que tendrias
+ese acceso igualmente).
+
+Sumando ambas cantidad de accesos obtenemos finalmente que la cantidad neta de accesos
+para el item b es 16.
+

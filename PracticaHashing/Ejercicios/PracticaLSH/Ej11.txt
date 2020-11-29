@@ -1,0 +1,54 @@
+11) Sean los siguientes vectores en 5 dimensiones: v1 = [4 4 -5 -2 3] ;
+v2= [-3 -2 -4 5 0]; v3=[3 2 -1 -2 1]. Y sean los siguientes 6 hiperplanos
+aleatorios: r1=[1 1 1 1 -1]; r2=[-1 1 1 -1 -1]; r3=[1 -1 -1 -1 -1];
+r4=[1 -1 -1 -1 1]; r5=[1 -1 -1 -1 1]; r6=[-1 1 1 -1 1]. Se pide comparar las
+alternativas r=3, b=2 vs r=2, b=3 indicando en cada caso que colisiones se producirían.
+
+        v1      v2      v3
+
+mh1     -1      -1      1
+
+mh2     -1      -1      -1
+
+mh3     1       -1      1
+
+mh4     1       -1      1
+
+mh5     1       -1      1
+
+mh6     1       -1      1
+
+(prob algunos esten mal)
+
+Tomamos que el -1 es un 0 y el 1 lo mantenemos como 1, basicamente lo estamos pasando
+a binario. Luego ese numero binario nos dice a que bucket de la banda hay que mandarlo.
+tomamos mh3 como el bit mas significativo, y los otros en orden ascendente (o sea mh3 mh2 mh1)
+
+Para r = 3, b = 2
+
+Para la banda b1
+
+[v2,-,-,-,v1,v3,-,-]
+
+Para la banda b2
+
+[v2,-,-,-,-,-,-,{v1, v3}]
+
+Colisionan en este caso v1 y v3
+
+
+Para r = 2, b = 3
+
+Para la banda b1
+
+[{v1, v2}, v3, -, -]
+
+Para la banda b2
+
+[v2, -, -, {v1, v3}]
+
+Para la banda b3
+
+[v2, -, -, {v1, v3}]
+
+En este caso colisionan v1 con v3 y v2

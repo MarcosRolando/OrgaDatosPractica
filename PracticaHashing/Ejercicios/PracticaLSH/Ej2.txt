@@ -1,0 +1,15 @@
+2) Si se tiene la siguiente familia de funciones LSH (0.15,0.85,0.85,0.15) #LSH (d1, d2, p1, p2)
+indique de qué forma quedaría amplificada usando r=3 y b=4. Finalmente interprete
+el resultado de la familia amplificada indicando qué cantidad de falsos positivos
+o falsos negativos se producirían.
+
+ Formula Amplificacion: p1 = 1 - (1 - (1 - d1)^r)^b
+                        p2 = 1 - (1 - (1 - d2)^r)^b
+
+p1 = 0.9778289342
+p2 = 0.01343180989
+
+LSH (0.15, 0.85, 0.97782, 0.01343) #Familia amplificada
+
+1 - p1 = Prob Falso Negativo = 0.023
+p2 = Prob Falso Positivo = 0.01343

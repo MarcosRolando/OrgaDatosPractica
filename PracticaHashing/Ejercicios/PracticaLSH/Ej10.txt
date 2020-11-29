@@ -1,0 +1,12 @@
+10) Dados los vectores: x=[1,3,-1,2]; y=[-1,-2,-1,-1], z=[2,4,-1,3] y los
+hiperplanos aleatorios: r1 = [+1,-1,+1] r2=[+1,+1,-1] r3=[-1,-1,-1], r4=[+1,+1,+1].
+Queremos usar 3 (tres) hiperplanos para aproximar el coseno entre los vectores usando LSH.
+¿Cuáles son los 3 hiperplanos que hay que elegir entre los 4 propuestos? Justifique adecuadamente.
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+7) Tenemos un total de 10.000 claves de 32 bytes c/u. Si usamos el esquema FKS y la
+primer tabla tiene 1000 posiciones. ¿Cuánto espacio necesitamos en total para
+almacenar las 10.000 claves?
+
+Asumiendo uniformidad de colisiones, tendriamos entonces 10 colisiones por posicion.
+Por cada posicion entonces generariamos una segunda tabla de hash de tamanio 101 (10^2 = 100 y el siguiente
+primo mas cercano es 101) (es el modulo que usas para la funcion de hash)
+donde asumimos que si bien no sabemos si no hay colisiones, aunque hubiera deberian ser casi nulas y el siguiente primo
+mantendria el orden de 101 asi que el tamanio final seria aprox el mismo (del mismo orden digamos).
+Entonces la tabla tendria un valor aproximado de 1000*101*32 bytes = 3.232 MB.

@@ -1,0 +1,91 @@
+5) (10ptos) (***) Dados los siguientes documentos:
+
+D1) Abanico Azul Aro
+D2) Arco Aro Avion
+D3) Arco Arpa Azul Avioneta
+D4) Avion Avioneta
+
+Sabiendo que se construyó sobre ellos un índice invertido
+utilizando front coding parcial (n=3) y códigos gamma
+para codificar los punteros, indicar cuantos accesos son
+necesarios para resolver la consulta “Arco Azul”
+detallando paso a paso la forma en que se resuelve la
+misma.
+
+Respuesta:
+
+Primero armamos la tabla de terminos y chars iguales/distintos
+
+
+terminos        chars=      chars!=
+
+Abanico         0           7
+Arco            1           3
+Aro             2           1
+Arpa            0           4   #reinicio
+Avion           1           4
+Avioneta        5           3
+Azul            0           4   #reinicio
+
+
+Segundo vemos como queda el indice invertido:
+
+
+0       7    10  11    15    19   22
+Abanico rco  o   Arpa  vion  eta  Azul
+
+Armamos una para visualizar los codigos gamma, pero esta no es la posta
+
+terminos        documentos
+
+0               111
+7               01011 111
+10              11011 11010
+11              0111010
+15              0101011 01011
+19              011100100 11010
+22              11010 0101011
+
+entonces juntando las codificaciones gamma
+
+0   3       10         20      27           39             51
+111 0101111 1101111010 0111010 010101101011 01110010011010 110100101011
+
+El indice invertido finalmente quedaria:
+
+terminos        documentos
+
+0               0
+7               3
+10              10
+11              20
+15              27
+19              39
+22              51
+
+Ahora para la consulta "Arco Azul" veamos cuantos accesos son necesarios para resolverla.
+Tendriamos que encontrar primero los documentos que contienen ambos terminos. Para esto
+se realiza una busqueda de los documentos que contienen cada termino individualmente y luego
+nos quedariamos con la AND de esos conjuntos (es decir aquellos documentos que contienen ambos
+terminos). Para realizar la busqueda de cada termino se empieza por una busqueda binaria
+en el indice de la tabla (la columna de los terminos) hasta encontrar el termino buscado.
+Tendriamos entonces que cada acceso al indice resultaria ademas a un acceso a disco para ver
+el termino en el array (ya que el indice en si solo nos da el puntero al termino).
+Entonces tendriamos 1 acceso a indice y otro acceso a disco por cada evaluacion de la busqueda binaria que hagamos,
+Para el caso del termino "Arco" tendriamos 1 acceso a indice + 1 acceso a disco para el termino "Arpa",
+luego otro acceso a indice y otro a disco en la siguiente porque ya encontramos "rco" y otro acceso a indice y a disco
+para leer la "A". Finalmente tendriamos otro acceso a disco para leer los documentos (ya que lo que tenemos es el puntero
+y no el documento en si cuando encontramos la entrada del indice invertido correcta).
+
+En total entonces tendriamos para "Arco" 3 accesos a indice y 4 accesos a disco.
+Siguiendo la misma logica para "Azul" tendriamos 5 accesos a indice y 6 accesos a disco
+(esto si no cacheas Arpa cuando lo leiste por primera vez en esta busqueda, Natalia
+creo que lo cachea entonces no la cuenta 2 veces pero nunca lo dieron los gatos)
+
+Sumando los accesos de cada termino tendriamos en total 8 accesos a indice y
+10 accesos a disco.
+
+Una vez recuperados los documentos donde estan presentes los terminos hacemos la AND y nos quedamos
+con aquellos documentos que tienen ambos terminos. Finalmente debemos verificar que esos documentos
+tengan los terminos tal cual estan en la consulta. Como ninguno cumple entonces no habria ningun
+documento retornado en nuestra consulta.
