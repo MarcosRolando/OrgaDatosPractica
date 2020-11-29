@@ -1,0 +1,501 @@
+symbol,company_name
+1,Sony
+2,CD Projekt-Red
+3,Sony
+4,CD Projekt-Red
+5,Microsoft
+6,Sony
+7,CD Projekt-Red
+8,Coca-Cola
+9,Microsoft
+10,Sony
+11,CD Projekt-Red
+12,Coca-Cola
+13,Sony
+14,CD Projekt-Red
+15,Microsoft
+16,CD Projekt-Red
+17,Coca-Cola
+18,Microsoft
+19,Sony
+20,Microsoft
+21,Coca-Cola
+22,Coca-Cola
+23,Coca-Cola
+24,Microsoft
+25,Microsoft
+26,Sony
+27,CD Projekt-Red
+28,Coca-Cola
+29,CD Projekt-Red
+30,Microsoft
+31,Microsoft
+32,Coca-Cola
+33,Sony
+34,Microsoft
+35,Sony
+36,Microsoft
+37,Microsoft
+38,CD Projekt-Red
+39,Microsoft
+40,CD Projekt-Red
+41,Sony
+42,Microsoft
+43,Sony
+44,Microsoft
+45,Coca-Cola
+46,Sony
+47,Microsoft
+48,Coca-Cola
+49,CD Projekt-Red
+50,Coca-Cola
+51,Coca-Cola
+52,CD Projekt-Red
+53,Microsoft
+54,Microsoft
+55,Sony
+56,Coca-Cola
+57,Sony
+58,Microsoft
+59,Sony
+60,CD Projekt-Red
+61,CD Projekt-Red
+62,CD Projekt-Red
+63,CD Projekt-Red
+64,Sony
+65,Microsoft
+66,CD Projekt-Red
+67,CD Projekt-Red
+68,Microsoft
+69,Sony
+70,Coca-Cola
+71,Microsoft
+72,CD Projekt-Red
+73,Microsoft
+74,CD Projekt-Red
+75,Microsoft
+76,Microsoft
+77,Sony
+78,Microsoft
+79,CD Projekt-Red
+80,CD Projekt-Red
+81,CD Projekt-Red
+82,CD Projekt-Red
+83,CD Projekt-Red
+84,Coca-Cola
+85,Sony
+86,Microsoft
+87,CD Projekt-Red
+88,Coca-Cola
+89,Coca-Cola
+90,Sony
+91,CD Projekt-Red
+92,Coca-Cola
+93,Microsoft
+94,Coca-Cola
+95,CD Projekt-Red
+96,CD Projekt-Red
+97,Sony
+98,Sony
+99,Microsoft
+100,CD Projekt-Red
+101,Coca-Cola
+102,Coca-Cola
+103,Sony
+104,Microsoft
+105,Sony
+106,Coca-Cola
+107,CD Projekt-Red
+108,Coca-Cola
+109,CD Projekt-Red
+110,CD Projekt-Red
+111,Microsoft
+112,Coca-Cola
+113,Coca-Cola
+114,Microsoft
+115,Microsoft
+116,Microsoft
+117,CD Projekt-Red
+118,Sony
+119,Coca-Cola
+120,CD Projekt-Red
+121,Coca-Cola
+122,CD Projekt-Red
+123,Sony
+124,Coca-Cola
+125,Coca-Cola
+126,Microsoft
+127,Sony
+128,Sony
+129,CD Projekt-Red
+130,CD Projekt-Red
+131,Coca-Cola
+132,Microsoft
+133,Sony
+134,Coca-Cola
+135,Coca-Cola
+136,Sony
+137,Sony
+138,CD Projekt-Red
+139,CD Projekt-Red
+140,Microsoft
+141,Sony
+142,CD Projekt-Red
+143,Microsoft
+144,Coca-Cola
+145,Coca-Cola
+146,Coca-Cola
+147,Sony
+148,Sony
+149,Microsoft
+150,Sony
+151,Microsoft
+152,Sony
+153,Coca-Cola
+154,Coca-Cola
+155,Coca-Cola
+156,Sony
+157,Coca-Cola
+158,Sony
+159,Coca-Cola
+160,CD Projekt-Red
+161,Sony
+162,CD Projekt-Red
+163,Coca-Cola
+164,Microsoft
+165,Microsoft
+166,CD Projekt-Red
+167,Coca-Cola
+168,Sony
+169,Sony
+170,Microsoft
+171,Sony
+172,CD Projekt-Red
+173,Coca-Cola
+174,CD Projekt-Red
+175,Sony
+176,Coca-Cola
+177,Sony
+178,Sony
+179,Coca-Cola
+180,Microsoft
+181,Sony
+182,Microsoft
+183,Sony
+184,Microsoft
+185,Microsoft
+186,Coca-Cola
+187,Coca-Cola
+188,Coca-Cola
+189,Sony
+190,CD Projekt-Red
+191,CD Projekt-Red
+192,Coca-Cola
+193,CD Projekt-Red
+194,Microsoft
+195,Coca-Cola
+196,Sony
+197,Sony
+198,Coca-Cola
+199,Sony
+200,Sony
+201,CD Projekt-Red
+202,Sony
+203,Coca-Cola
+204,Coca-Cola
+205,Coca-Cola
+206,Sony
+207,CD Projekt-Red
+208,Sony
+209,Sony
+210,Microsoft
+211,CD Projekt-Red
+212,Sony
+213,Sony
+214,CD Projekt-Red
+215,CD Projekt-Red
+216,Sony
+217,CD Projekt-Red
+218,Sony
+219,Microsoft
+220,Coca-Cola
+221,Coca-Cola
+222,CD Projekt-Red
+223,Coca-Cola
+224,Coca-Cola
+225,Coca-Cola
+226,Coca-Cola
+227,Sony
+228,Coca-Cola
+229,Microsoft
+230,CD Projekt-Red
+231,Coca-Cola
+232,CD Projekt-Red
+233,Coca-Cola
+234,Microsoft
+235,Coca-Cola
+236,Microsoft
+237,Sony
+238,Sony
+239,Coca-Cola
+240,Coca-Cola
+241,CD Projekt-Red
+242,Coca-Cola
+243,Coca-Cola
+244,Coca-Cola
+245,Sony
+246,Microsoft
+247,Coca-Cola
+248,Sony
+249,CD Projekt-Red
+250,Coca-Cola
+251,Coca-Cola
+252,CD Projekt-Red
+253,CD Projekt-Red
+254,Sony
+255,CD Projekt-Red
+256,Coca-Cola
+257,Coca-Cola
+258,Sony
+259,Coca-Cola
+260,CD Projekt-Red
+261,Microsoft
+262,Microsoft
+263,Coca-Cola
+264,Microsoft
+265,Sony
+266,Sony
+267,Sony
+268,Sony
+269,Sony
+270,Sony
+271,Microsoft
+272,Sony
+273,CD Projekt-Red
+274,Coca-Cola
+275,Sony
+276,Sony
+277,CD Projekt-Red
+278,Sony
+279,Microsoft
+280,Microsoft
+281,Microsoft
+282,Microsoft
+283,Coca-Cola
+284,Coca-Cola
+285,Microsoft
+286,Microsoft
+287,Microsoft
+288,Coca-Cola
+289,Sony
+290,Coca-Cola
+291,Sony
+292,Coca-Cola
+293,CD Projekt-Red
+294,Coca-Cola
+295,Coca-Cola
+296,CD Projekt-Red
+297,Coca-Cola
+298,Sony
+299,CD Projekt-Red
+300,CD Projekt-Red
+301,Sony
+302,CD Projekt-Red
+303,Sony
+304,Sony
+305,Sony
+306,Sony
+307,Sony
+308,Microsoft
+309,Sony
+310,Coca-Cola
+311,Sony
+312,Microsoft
+313,Sony
+314,Coca-Cola
+315,Sony
+316,Coca-Cola
+317,CD Projekt-Red
+318,Sony
+319,Sony
+320,CD Projekt-Red
+321,Coca-Cola
+322,Coca-Cola
+323,Sony
+324,Microsoft
+325,Coca-Cola
+326,Microsoft
+327,Coca-Cola
+328,Microsoft
+329,Sony
+330,Coca-Cola
+331,Microsoft
+332,Coca-Cola
+333,Sony
+334,Coca-Cola
+335,Microsoft
+336,Sony
+337,Microsoft
+338,Microsoft
+339,Microsoft
+340,Microsoft
+341,CD Projekt-Red
+342,Microsoft
+343,Coca-Cola
+344,CD Projekt-Red
+345,CD Projekt-Red
+346,Microsoft
+347,Coca-Cola
+348,Sony
+349,Microsoft
+350,Sony
+351,Sony
+352,Sony
+353,CD Projekt-Red
+354,Microsoft
+355,Sony
+356,Microsoft
+357,Sony
+358,Sony
+359,Sony
+360,Coca-Cola
+361,Sony
+362,CD Projekt-Red
+363,Sony
+364,Coca-Cola
+365,CD Projekt-Red
+366,Microsoft
+367,Microsoft
+368,Coca-Cola
+369,Microsoft
+370,CD Projekt-Red
+371,CD Projekt-Red
+372,Microsoft
+373,Coca-Cola
+374,Coca-Cola
+375,Sony
+376,Coca-Cola
+377,Microsoft
+378,Coca-Cola
+379,Coca-Cola
+380,CD Projekt-Red
+381,CD Projekt-Red
+382,Sony
+383,CD Projekt-Red
+384,CD Projekt-Red
+385,Microsoft
+386,CD Projekt-Red
+387,Sony
+388,Sony
+389,Microsoft
+390,Microsoft
+391,Microsoft
+392,CD Projekt-Red
+393,Coca-Cola
+394,Coca-Cola
+395,Coca-Cola
+396,Microsoft
+397,CD Projekt-Red
+398,CD Projekt-Red
+399,Microsoft
+400,Microsoft
+401,Coca-Cola
+402,Sony
+403,CD Projekt-Red
+404,CD Projekt-Red
+405,Sony
+406,Coca-Cola
+407,Microsoft
+408,Microsoft
+409,Coca-Cola
+410,Sony
+411,Coca-Cola
+412,Coca-Cola
+413,Microsoft
+414,Sony
+415,Microsoft
+416,CD Projekt-Red
+417,Microsoft
+418,Microsoft
+419,Sony
+420,Coca-Cola
+421,Sony
+422,Microsoft
+423,CD Projekt-Red
+424,CD Projekt-Red
+425,Sony
+426,CD Projekt-Red
+427,Coca-Cola
+428,Microsoft
+429,Microsoft
+430,Coca-Cola
+431,Sony
+432,Microsoft
+433,CD Projekt-Red
+434,Coca-Cola
+435,Sony
+436,CD Projekt-Red
+437,CD Projekt-Red
+438,CD Projekt-Red
+439,CD Projekt-Red
+440,Microsoft
+441,Sony
+442,Sony
+443,Coca-Cola
+444,CD Projekt-Red
+445,Microsoft
+446,Sony
+447,Coca-Cola
+448,CD Projekt-Red
+449,Sony
+450,Microsoft
+451,Microsoft
+452,Coca-Cola
+453,CD Projekt-Red
+454,Microsoft
+455,CD Projekt-Red
+456,Microsoft
+457,Microsoft
+458,CD Projekt-Red
+459,CD Projekt-Red
+460,CD Projekt-Red
+461,Coca-Cola
+462,Sony
+463,Microsoft
+464,Coca-Cola
+465,Coca-Cola
+466,Coca-Cola
+467,Coca-Cola
+468,Sony
+469,Microsoft
+470,Sony
+471,Sony
+472,Microsoft
+473,CD Projekt-Red
+474,Sony
+475,CD Projekt-Red
+476,Sony
+477,Microsoft
+478,Coca-Cola
+479,Coca-Cola
+480,Sony
+481,Microsoft
+482,Microsoft
+483,Microsoft
+484,Sony
+485,CD Projekt-Red
+486,Microsoft
+487,Sony
+488,Coca-Cola
+489,Coca-Cola
+490,Coca-Cola
+491,Sony
+492,Microsoft
+493,Coca-Cola
+494,CD Projekt-Red
+495,Coca-Cola
+496,Microsoft
+497,Sony
+498,CD Projekt-Red
+499,Sony
+500,Sony

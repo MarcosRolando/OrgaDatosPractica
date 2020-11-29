@@ -1,0 +1,11 @@
+Cuenta destino,Cuenta origen,Fecha,Hora,Monto,Num. de transaccion,Tipo de transaccion
+,Cuenta 2,20/6/2019,15:45:00,623.5045158295898,15,Deposito
+Cuenta 5,Cuenta 4,23/9/2018,16:23:05,524.5756366849977,16,Transferencia
+Cuenta 3,Cuenta 4,23/9/2018,15:45:00,748.8179971312892,17,Deposito
+Cuenta 5,,20/6/2019,10:00:00,303.0666733782986,18,Transferencia
+,,5/1/2020,15:45:00,34.90759597331194,19,
+Cuenta 5,Cuenta 1,2/10/2019,16:23:05,505.8910615694537,20,Deposito
+Cuenta 5,Cuenta 5,7/6/2019,10:00:00,877.9884617175563,21,Extraccion
+Cuenta 1,Cuenta 4,20/6/2019,10:00:00,428.733130382614,22,
+Cuenta 1,Cuenta 2,20/6/2019,10:00:00,227.6291011659257,23,Deposito
+Cuenta 3,Cuenta 1,5/1/2020,13:05:00,988.4288710245196,24,Deposito

@@ -1,0 +1,804 @@
+uid,sessionid,event,value,datetime
+16,1,ecommerce.view-product,61,2018-07-31
+17,36,mas basura,4,2018-08-06
+7,31,ecommerce.view-product,41,2019-10-21
+11,35,ecommerce.view-product,6,2019-04-28
+3,29,mas basura,1,2019-12-03
+16,22,ecommerce.checkout,91,2019-01-28
+1,23,mas basura,39,2018-08-16
+7,37,ecommerce.conversion,99,2018-03-31
+20,1,ecommerce.conversion,93,2018-09-11
+4,25,basura,2,2019-10-12
+5,16,ecommerce.view-product,5,2019-07-31
+5,2,basura,15,2018-03-22
+16,50,ecommerce.view-product,61,2019-07-11
+19,9,basura,30,2018-06-10
+17,41,ecommerce.checkout,68,2018-03-25
+3,39,ecommerce.conversion,46,2019-03-20
+5,15,ecommerce.view-product,66,2019-09-05
+8,5,mas basura,9,2018-04-27
+6,9,ecommerce.view-product,91,2019-01-31
+5,48,basura,46,2019-09-29
+4,37,basura,21,2019-12-12
+2,43,ecommerce.checkout,46,2019-11-07
+2,28,ecommerce.checkout,44,2019-09-03
+3,31,ecommerce.checkout,61,2019-04-03
+9,48,mas basura,82,2019-06-25
+13,16,basura,50,2019-11-15
+12,16,ecommerce.checkout,9,2019-06-17
+9,36,ecommerce.checkout,62,2019-08-07
+17,24,basura,58,2019-02-17
+18,14,mas basura,98,2019-11-30
+15,12,basura,3,2019-09-09
+13,12,basura,6,2018-09-14
+19,1,basura,73,2018-11-29
+13,16,ecommerce.view-product,52,2018-01-04
+10,19,ecommerce.checkout,26,2018-04-07
+1,35,ecommerce.checkout,12,2018-11-16
+8,22,basura,68,2018-10-07
+14,50,basura,52,2019-07-09
+18,42,mas basura,57,2019-08-29
+18,42,ecommerce.conversion,72,2019-01-13
+15,10,ecommerce.view-product,24,2019-04-14
+2,15,basura,26,2018-01-27
+13,44,mas basura,27,2018-11-08
+1,18,ecommerce.checkout,92,2018-08-28
+1,39,mas basura,27,2019-08-25
+7,35,basura,38,2018-03-23
+10,25,ecommerce.conversion,88,2019-10-21
+17,1,basura,6,2019-10-26
+8,32,basura,39,2018-10-22
+8,9,ecommerce.view-product,53,2019-12-24
+6,8,ecommerce.checkout,17,2019-08-09
+18,12,ecommerce.checkout,73,2019-07-25
+16,3,basura,67,2019-11-07
+17,32,basura,88,2019-05-10
+7,16,basura,79,2019-05-11
+14,48,mas basura,80,2019-10-14
+5,3,ecommerce.view-product,25,2018-10-23
+5,13,ecommerce.checkout,73,2019-05-24
+18,5,basura,18,2018-09-14
+9,26,ecommerce.conversion,74,2019-11-03
+11,49,mas basura,45,2019-05-12
+10,8,ecommerce.view-product,51,2019-09-04
+7,43,ecommerce.conversion,24,2019-11-14
+17,5,ecommerce.conversion,93,2019-06-03
+14,48,ecommerce.checkout,18,2018-02-26
+2,34,ecommerce.checkout,3,2019-08-18
+14,12,ecommerce.view-product,24,2019-09-09
+7,48,basura,75,2018-12-02
+18,14,ecommerce.checkout,37,2018-11-28
+14,21,basura,84,2018-07-21
+16,26,basura,50,2018-01-18
+13,7,ecommerce.view-product,88,2018-01-08
+6,34,basura,84,2018-09-04
+14,13,mas basura,60,2018-05-24
+11,32,mas basura,78,2019-08-31
+2,20,mas basura,7,2018-11-19
+13,29,mas basura,99,2019-10-06
+7,45,mas basura,65,2018-10-27
+12,16,ecommerce.view-product,37,2019-01-04
+14,46,ecommerce.view-product,70,2019-02-17
+12,40,ecommerce.view-product,40,2019-11-14
+20,4,ecommerce.checkout,26,2018-11-24
+9,39,ecommerce.conversion,9,2019-09-11
+17,45,basura,78,2018-06-06
+3,8,basura,18,2019-04-24
+9,32,ecommerce.checkout,59,2018-06-30
+9,40,mas basura,76,2018-03-26
+16,43,ecommerce.view-product,88,2018-06-10
+7,17,ecommerce.checkout,72,2019-06-16
+12,32,ecommerce.conversion,60,2018-11-27
+1,32,mas basura,70,2018-02-01
+5,18,mas basura,59,2019-09-18
+1,25,mas basura,52,2019-03-27
+17,50,ecommerce.checkout,43,2019-10-22
+3,8,mas basura,64,2019-08-14
+12,11,ecommerce.checkout,17,2019-12-17
+16,41,basura,94,2019-04-07
+8,20,mas basura,87,2018-07-20
+7,11,mas basura,64,2019-09-09
+6,33,mas basura,9,2019-05-09
+5,13,ecommerce.view-product,65,2018-07-02
+13,41,ecommerce.conversion,84,2018-07-13
+19,24,basura,73,2019-09-24
+3,36,basura,1,2019-02-19
+5,42,ecommerce.view-product,6,2019-10-28
+20,6,ecommerce.conversion,35,2018-10-25
+17,37,ecommerce.view-product,54,2019-04-22
+8,40,basura,92,2018-10-03
+15,34,ecommerce.conversion,39,2018-05-11
+20,7,ecommerce.view-product,99,2018-06-14
+2,26,ecommerce.checkout,13,2018-11-23
+6,9,ecommerce.checkout,30,2018-05-15
+10,28,ecommerce.checkout,100,2019-12-03
+11,5,ecommerce.conversion,89,2019-10-16
+9,13,mas basura,26,2018-05-12
+9,4,ecommerce.view-product,51,2018-06-21
+18,21,mas basura,2,2019-12-11
+16,18,mas basura,77,2018-07-28
+1,14,ecommerce.view-product,9,2019-05-13
+13,27,ecommerce.view-product,1,2018-06-16
+19,3,ecommerce.checkout,9,2018-08-25
+2,48,ecommerce.view-product,60,2018-05-21
+11,17,ecommerce.view-product,100,2018-10-13
+4,25,ecommerce.conversion,65,2019-01-19
+9,50,ecommerce.checkout,89,2019-04-16
+12,19,ecommerce.view-product,80,2019-04-11
+10,6,ecommerce.conversion,23,2018-08-25
+7,28,mas basura,76,2018-06-25
+5,46,basura,87,2018-05-20
+18,35,mas basura,50,2018-10-24
+7,24,mas basura,50,2018-09-01
+20,32,mas basura,36,2018-03-06
+16,21,basura,13,2019-10-29
+18,36,ecommerce.checkout,90,2019-12-11
+1,32,mas basura,52,2019-05-11
+6,16,mas basura,37,2019-03-24
+16,17,ecommerce.checkout,35,2018-07-08
+4,7,ecommerce.view-product,61,2019-08-09
+18,42,mas basura,70,2018-08-22
+14,9,ecommerce.conversion,34,2018-02-25
+6,42,ecommerce.checkout,38,2019-07-03
+7,2,mas basura,93,2018-12-17
+10,27,ecommerce.view-product,11,2018-08-05
+14,9,ecommerce.checkout,26,2019-07-13
+10,49,ecommerce.conversion,55,2019-06-01
+13,41,ecommerce.conversion,37,2019-08-19
+15,6,mas basura,62,2018-09-25
+4,31,ecommerce.conversion,50,2018-08-27
+19,42,ecommerce.conversion,49,2019-12-02
+12,45,basura,49,2019-02-15
+18,11,basura,35,2019-02-05
+20,16,basura,89,2019-08-16
+20,38,basura,34,2018-02-19
+7,25,basura,85,2019-08-09
+11,49,ecommerce.conversion,32,2019-03-30
+18,40,ecommerce.checkout,11,2019-05-06
+14,45,mas basura,67,2018-06-02
+11,37,ecommerce.conversion,50,2019-06-14
+1,19,ecommerce.conversion,58,2018-12-18
+20,18,ecommerce.conversion,90,2018-02-14
+4,44,ecommerce.checkout,1,2018-12-06
+6,41,ecommerce.view-product,53,2019-10-30
+13,18,basura,19,2018-05-20
+7,49,ecommerce.conversion,75,2019-07-30
+16,29,mas basura,9,2019-04-26
+15,18,mas basura,45,2018-01-21
+8,4,ecommerce.conversion,15,2019-09-29
+16,36,basura,69,2019-07-19
+2,23,basura,61,2018-08-21
+16,21,ecommerce.checkout,43,2019-02-28
+8,35,mas basura,4,2019-08-08
+19,41,ecommerce.view-product,95,2018-04-11
+6,7,mas basura,67,2019-08-08
+15,9,ecommerce.checkout,47,2018-09-21
+12,2,basura,94,2019-12-18
+14,18,ecommerce.view-product,72,2018-08-30
+15,11,mas basura,68,2019-03-02
+4,21,mas basura,8,2019-07-26
+1,48,ecommerce.conversion,58,2018-04-11
+13,31,basura,65,2018-06-18
+14,26,ecommerce.view-product,9,2018-04-03
+6,11,ecommerce.checkout,6,2019-05-06
+5,14,mas basura,84,2019-05-30
+7,18,ecommerce.checkout,41,2018-04-11
+16,16,ecommerce.conversion,76,2019-06-15
+6,48,ecommerce.checkout,52,2018-02-17
+2,33,ecommerce.conversion,40,2019-04-11
+9,38,ecommerce.conversion,5,2019-05-17
+16,10,ecommerce.conversion,17,2018-08-25
+10,14,ecommerce.checkout,20,2019-08-27
+4,34,basura,61,2019-01-01
+5,31,ecommerce.conversion,48,2019-05-04
+13,13,ecommerce.view-product,12,2018-02-01
+6,10,ecommerce.conversion,10,2019-04-25
+16,26,ecommerce.checkout,80,2018-11-21
+5,48,basura,48,2018-08-09
+20,39,mas basura,86,2019-11-01
+15,18,ecommerce.conversion,88,2018-03-31
+20,40,basura,80,2018-01-20
+19,18,ecommerce.view-product,56,2019-10-28
+5,22,ecommerce.checkout,37,2019-04-06
+8,23,basura,77,2019-01-24
+20,6,mas basura,82,2019-12-11
+15,27,ecommerce.checkout,12,2018-10-06
+19,46,basura,18,2018-02-05
+3,50,ecommerce.conversion,49,2019-05-27
+3,34,ecommerce.conversion,80,2018-01-12
+1,34,ecommerce.view-product,83,2018-07-31
+16,17,ecommerce.checkout,23,2018-07-17
+4,9,mas basura,58,2018-08-13
+5,15,mas basura,55,2019-10-28
+8,22,ecommerce.checkout,83,2018-09-28
+11,35,basura,13,2019-02-04
+10,37,mas basura,23,2019-09-14
+11,9,ecommerce.view-product,66,2018-03-18
+11,2,ecommerce.view-product,84,2018-05-23
+19,2,ecommerce.checkout,66,2019-09-01
+13,22,basura,14,2018-08-23
+3,13,mas basura,45,2018-02-27
+7,17,ecommerce.view-product,20,2019-11-24
+7,27,basura,94,2019-03-01
+18,21,basura,99,2019-03-05
+5,14,ecommerce.view-product,31,2019-08-27
+1,18,ecommerce.checkout,97,2019-04-08
+8,45,ecommerce.checkout,61,2019-07-10
+10,49,ecommerce.conversion,10,2019-03-19
+7,6,ecommerce.conversion,86,2018-07-25
+19,8,ecommerce.checkout,53,2018-08-18
+4,47,ecommerce.view-product,87,2018-02-03
+16,50,ecommerce.view-product,8,2019-09-14
+14,18,ecommerce.conversion,96,2018-05-12
+12,17,ecommerce.conversion,72,2018-03-01
+9,47,ecommerce.view-product,34,2019-05-11
+15,21,mas basura,54,2019-09-23
+16,11,ecommerce.view-product,45,2018-03-31
+16,18,ecommerce.checkout,70,2019-01-10
+6,49,ecommerce.view-product,79,2019-03-10
+7,5,basura,56,2018-04-19
+14,32,ecommerce.checkout,74,2019-02-05
+6,28,mas basura,15,2018-02-20
+10,37,basura,65,2019-05-05
+4,36,ecommerce.view-product,97,2018-08-22
+8,25,ecommerce.conversion,4,2018-11-06
+7,2,basura,79,2018-06-06
+10,3,ecommerce.view-product,78,2018-04-04
+4,7,ecommerce.conversion,49,2019-02-16
+8,17,ecommerce.view-product,27,2018-11-13
+11,24,mas basura,94,2018-03-26
+10,15,basura,86,2019-01-04
+18,30,ecommerce.checkout,29,2019-10-23
+13,45,mas basura,26,2018-11-06
+8,11,mas basura,5,2019-07-06
+2,34,mas basura,1,2019-10-13
+4,27,mas basura,64,2018-02-20
+19,28,ecommerce.checkout,80,2019-10-22
+5,16,basura,12,2018-09-18
+17,23,ecommerce.view-product,60,2019-10-05
+4,1,ecommerce.checkout,62,2018-01-30
+13,9,ecommerce.conversion,77,2019-12-03
+8,18,ecommerce.view-product,54,2018-09-13
+16,9,ecommerce.conversion,42,2018-05-29
+19,39,ecommerce.checkout,37,2019-06-07
+3,18,basura,20,2019-12-27
+13,18,ecommerce.checkout,48,2018-05-08
+6,42,mas basura,49,2018-09-03
+13,17,ecommerce.conversion,97,2019-03-21
+10,46,basura,64,2019-03-11
+15,41,mas basura,36,2019-08-05
+5,1,ecommerce.conversion,92,2018-11-12
+10,33,ecommerce.conversion,14,2019-11-09
+3,12,ecommerce.conversion,60,2018-09-09
+19,11,mas basura,99,2019-05-10
+6,32,ecommerce.conversion,50,2018-06-17
+4,8,ecommerce.view-product,12,2019-08-06
+8,18,ecommerce.view-product,45,2019-09-27
+10,32,ecommerce.checkout,2,2018-05-23
+17,43,ecommerce.checkout,21,2018-06-10
+10,28,basura,42,2019-01-14
+16,36,ecommerce.checkout,12,2018-02-16
+20,18,ecommerce.conversion,12,2019-05-21
+7,20,ecommerce.view-product,93,2019-07-10
+6,41,mas basura,90,2018-03-08
+7,6,basura,54,2019-12-31
+20,29,mas basura,5,2018-06-10
+12,39,mas basura,40,2019-10-18
+17,41,ecommerce.checkout,41,2019-05-02
+17,42,basura,97,2019-09-16
+2,50,ecommerce.view-product,32,2019-12-18
+15,34,mas basura,80,2018-07-27
+5,29,mas basura,30,2019-02-11
+7,10,ecommerce.view-product,8,2019-07-24
+16,18,ecommerce.view-product,65,2019-05-28
+1,21,ecommerce.conversion,39,2019-12-07
+19,30,ecommerce.checkout,72,2018-12-29
+18,29,ecommerce.conversion,84,2019-01-31
+8,9,ecommerce.checkout,59,2019-04-21
+14,24,mas basura,35,2018-01-17
+17,8,mas basura,82,2019-11-10
+2,23,ecommerce.conversion,31,2019-09-01
+9,26,ecommerce.conversion,99,2018-11-06
+8,2,ecommerce.conversion,14,2018-06-08
+7,34,ecommerce.checkout,28,2018-02-07
+2,2,mas basura,28,2019-05-01
+8,42,mas basura,67,2018-06-02
+12,44,mas basura,20,2018-11-28
+12,29,basura,63,2018-12-10
+11,44,mas basura,31,2019-02-09
+4,31,ecommerce.view-product,99,2018-08-26
+6,40,ecommerce.view-product,35,2018-11-04
+10,39,ecommerce.view-product,18,2019-07-05
+3,48,ecommerce.view-product,28,2018-11-26
+4,16,ecommerce.conversion,3,2018-05-21
+17,9,ecommerce.checkout,86,2019-04-16
+3,15,ecommerce.view-product,44,2018-07-06
+10,46,basura,63,2018-05-11
+8,22,basura,63,2018-07-26
+6,12,mas basura,73,2018-03-10
+8,34,ecommerce.checkout,48,2018-04-02
+8,33,ecommerce.checkout,8,2019-10-29
+11,10,ecommerce.view-product,30,2019-11-04
+11,38,ecommerce.view-product,92,2019-02-25
+2,11,basura,40,2019-05-13
+4,11,ecommerce.view-product,97,2019-02-14
+6,5,basura,50,2019-02-22
+20,48,ecommerce.checkout,72,2018-02-24
+20,50,mas basura,25,2018-05-15
+4,8,ecommerce.view-product,65,2018-08-23
+9,16,mas basura,7,2018-04-26
+7,15,ecommerce.conversion,9,2018-08-28
+8,33,mas basura,4,2019-03-20
+17,35,ecommerce.view-product,77,2019-11-19
+11,1,basura,53,2018-05-11
+5,14,mas basura,33,2018-03-23
+7,40,ecommerce.checkout,83,2018-02-28
+12,39,mas basura,54,2018-11-14
+2,27,ecommerce.checkout,22,2018-09-17
+3,36,mas basura,94,2018-01-29
+7,49,ecommerce.checkout,20,2019-05-29
+17,28,ecommerce.view-product,35,2018-06-04
+16,11,ecommerce.conversion,30,2018-07-14
+10,19,ecommerce.checkout,73,2018-02-19
+17,46,ecommerce.view-product,54,2019-02-08
+15,34,mas basura,8,2019-12-06
+18,13,ecommerce.checkout,6,2018-01-29
+19,48,basura,7,2019-12-21
+7,49,basura,60,2018-08-09
+8,29,mas basura,65,2018-08-23
+16,49,ecommerce.view-product,25,2018-01-15
+17,27,ecommerce.view-product,93,2019-08-23
+13,31,ecommerce.checkout,87,2019-01-29
+3,1,mas basura,75,2019-01-19
+15,8,mas basura,25,2018-10-08
+5,35,ecommerce.view-product,37,2019-09-23
+15,18,mas basura,24,2018-01-15
+8,14,ecommerce.conversion,98,2019-05-20
+7,4,ecommerce.view-product,86,2019-10-28
+14,33,ecommerce.checkout,86,2018-04-28
+13,34,ecommerce.view-product,80,2018-12-16
+11,40,mas basura,33,2018-12-05
+9,24,basura,73,2019-01-18
+1,43,ecommerce.conversion,51,2019-12-18
+16,32,ecommerce.conversion,33,2019-03-26
+15,26,basura,60,2018-01-12
+3,18,ecommerce.checkout,87,2019-02-27
+2,31,ecommerce.view-product,44,2018-04-14
+11,14,mas basura,93,2018-04-10
+17,39,ecommerce.conversion,1,2019-06-15
+9,47,mas basura,66,2019-08-15
+4,47,mas basura,45,2018-02-01
+3,5,ecommerce.checkout,75,2018-11-24
+12,45,mas basura,41,2018-04-03
+12,13,basura,59,2018-03-13
+15,11,ecommerce.view-product,10,2018-10-26
+3,39,mas basura,12,2018-06-03
+16,3,basura,21,2019-05-22
+13,45,mas basura,9,2019-05-28
+4,10,mas basura,79,2019-07-18
+6,34,ecommerce.checkout,25,2018-09-24
+20,29,ecommerce.view-product,94,2018-11-28
+2,13,mas basura,1,2019-01-08
+7,50,ecommerce.conversion,30,2019-09-05
+10,41,ecommerce.view-product,58,2019-08-27
+10,32,basura,70,2019-06-23
+14,23,ecommerce.checkout,96,2019-05-31
+4,21,ecommerce.checkout,69,2019-08-03
+9,43,basura,65,2019-05-03
+13,30,basura,70,2018-02-16
+6,33,mas basura,75,2019-12-29
+4,26,ecommerce.view-product,43,2018-10-26
+18,13,ecommerce.view-product,49,2019-10-14
+9,9,mas basura,30,2018-09-10
+11,18,ecommerce.conversion,85,2018-12-02
+16,33,ecommerce.checkout,11,2018-12-18
+3,39,ecommerce.conversion,17,2018-01-30
+14,42,ecommerce.checkout,25,2018-07-24
+10,12,ecommerce.view-product,18,2018-02-28
+3,6,ecommerce.checkout,6,2018-03-19
+15,21,ecommerce.checkout,3,2019-06-07
+16,13,mas basura,78,2018-09-11
+12,46,ecommerce.checkout,97,2018-07-27
+7,16,mas basura,37,2019-07-17
+17,29,basura,42,2019-12-25
+16,1,mas basura,42,2019-09-29
+7,10,mas basura,36,2019-09-22
+7,28,basura,23,2019-05-31
+10,8,mas basura,1,2019-02-26
+10,50,ecommerce.conversion,92,2018-12-14
+15,4,ecommerce.conversion,67,2018-07-28
+12,32,ecommerce.conversion,33,2018-09-21
+19,48,ecommerce.view-product,69,2019-01-30
+19,29,mas basura,23,2019-04-24
+3,50,ecommerce.conversion,17,2018-07-20
+1,20,ecommerce.checkout,11,2018-03-17
+7,46,ecommerce.checkout,80,2019-01-19
+19,17,ecommerce.checkout,57,2019-10-07
+12,12,ecommerce.checkout,1,2018-10-28
+4,15,ecommerce.view-product,77,2019-07-14
+12,33,ecommerce.view-product,13,2019-01-12
+14,7,basura,51,2019-07-25
+16,6,basura,43,2018-01-29
+16,22,mas basura,62,2018-04-05
+3,17,ecommerce.conversion,82,2018-08-08
+14,26,ecommerce.conversion,75,2019-05-21
+3,25,ecommerce.view-product,36,2018-01-09
+13,15,ecommerce.checkout,60,2019-03-21
+16,48,ecommerce.conversion,85,2019-11-22
+12,10,ecommerce.checkout,87,2018-01-30
+2,19,ecommerce.view-product,63,2018-05-25
+5,15,ecommerce.conversion,58,2019-12-30
+6,26,ecommerce.view-product,67,2019-08-04
+7,11,mas basura,30,2018-12-30
+7,20,basura,3,2019-02-04
+4,25,mas basura,35,2018-08-17
+2,12,ecommerce.view-product,89,2018-07-11
+13,3,ecommerce.checkout,88,2018-02-26
+12,20,ecommerce.checkout,51,2018-09-06
+13,1,ecommerce.view-product,3,2018-09-04
+9,5,ecommerce.checkout,96,2018-12-06
+13,29,ecommerce.view-product,12,2018-09-07
+17,30,ecommerce.conversion,24,2018-03-21
+13,39,mas basura,36,2019-10-11
+12,1,ecommerce.checkout,91,2019-03-08
+8,48,basura,87,2019-03-29
+12,48,ecommerce.view-product,13,2018-05-27
+6,49,ecommerce.conversion,9,2019-07-16
+2,21,basura,27,2019-03-26
+15,12,basura,32,2019-02-02
+15,35,ecommerce.checkout,88,2019-02-03
+14,40,mas basura,62,2019-11-05
+17,37,basura,17,2018-12-23
+18,31,ecommerce.view-product,53,2019-03-18
+10,39,basura,69,2018-05-17
+17,34,ecommerce.checkout,39,2019-11-11
+11,15,mas basura,43,2018-01-05
+13,12,ecommerce.view-product,64,2018-10-13
+17,16,ecommerce.checkout,98,2018-02-01
+11,35,mas basura,94,2019-03-11
+5,47,ecommerce.conversion,73,2018-08-07
+4,21,ecommerce.view-product,47,2018-06-05
+6,23,mas basura,17,2018-09-30
+9,13,mas basura,12,2018-01-04
+17,28,ecommerce.view-product,91,2018-01-13
+6,16,mas basura,18,2018-01-11
+10,45,ecommerce.checkout,4,2018-01-25
+18,44,ecommerce.checkout,79,2019-07-10
+6,22,mas basura,29,2018-08-29
+16,41,mas basura,10,2018-04-20
+14,12,basura,5,2018-11-28
+1,1,ecommerce.conversion,52,2018-03-24
+6,38,ecommerce.conversion,69,2018-11-30
+14,16,ecommerce.checkout,51,2018-11-22
+1,44,ecommerce.view-product,34,2019-11-08
+4,2,ecommerce.conversion,26,2018-08-13
+14,30,ecommerce.conversion,32,2018-04-18
+12,11,ecommerce.conversion,51,2018-01-28
+7,17,mas basura,56,2018-02-25
+12,39,basura,19,2018-03-25
+16,19,ecommerce.checkout,22,2019-09-08
+17,38,ecommerce.view-product,77,2019-07-31
+11,11,basura,78,2019-02-20
+16,18,mas basura,57,2019-08-03
+3,32,ecommerce.checkout,9,2019-07-24
+13,33,ecommerce.conversion,64,2019-04-07
+14,42,ecommerce.checkout,57,2018-09-16
+17,5,ecommerce.checkout,33,2019-02-10
+14,46,mas basura,37,2018-12-06
+13,21,ecommerce.checkout,10,2018-03-01
+11,30,ecommerce.checkout,71,2019-12-21
+13,49,basura,53,2018-02-18
+3,29,mas basura,82,2018-04-02
+20,8,ecommerce.checkout,81,2018-06-23
+13,28,basura,45,2018-07-21
+3,12,mas basura,29,2018-05-31
+9,20,ecommerce.checkout,44,2019-08-05
+7,18,basura,52,2019-07-06
+19,14,ecommerce.view-product,41,2018-10-25
+14,43,basura,40,2018-08-11
+14,22,basura,98,2018-03-16
+1,49,ecommerce.view-product,7,2019-10-28
+1,39,basura,22,2018-03-09
+20,18,ecommerce.view-product,51,2018-05-10
+11,22,ecommerce.checkout,23,2019-04-02
+3,36,ecommerce.conversion,73,2019-07-10
+1,30,basura,39,2019-11-24
+4,5,ecommerce.view-product,44,2018-04-03
+3,15,basura,28,2018-11-23
+2,2,mas basura,72,2018-03-16
+1,21,basura,59,2018-01-29
+12,17,ecommerce.view-product,6,2018-01-23
+20,41,ecommerce.checkout,18,2018-01-16
+11,24,ecommerce.checkout,42,2019-12-31
+2,2,ecommerce.checkout,4,2018-05-27
+18,29,ecommerce.view-product,32,2018-07-26
+20,47,ecommerce.checkout,89,2018-08-04
+5,36,ecommerce.view-product,36,2019-08-02
+3,20,mas basura,93,2018-07-31
+19,30,ecommerce.conversion,3,2018-08-29
+13,22,ecommerce.checkout,80,2018-09-10
+4,2,ecommerce.checkout,5,2019-11-01
+10,16,mas basura,31,2018-07-18
+11,17,ecommerce.checkout,76,2019-02-12
+4,15,ecommerce.view-product,52,2018-12-15
+16,36,mas basura,20,2019-12-24
+8,10,basura,2,2018-09-06
+2,9,basura,9,2019-02-05
+3,30,ecommerce.checkout,23,2019-07-14
+5,19,ecommerce.view-product,14,2018-02-13
+18,50,ecommerce.checkout,67,2019-01-21
+9,30,ecommerce.conversion,88,2019-11-25
+4,6,ecommerce.conversion,96,2018-01-16
+19,42,mas basura,34,2019-12-01
+3,19,ecommerce.conversion,42,2018-01-23
+3,49,ecommerce.checkout,15,2019-08-10
+3,17,mas basura,83,2018-06-06
+9,1,ecommerce.checkout,17,2019-10-22
+8,21,mas basura,88,2019-08-14
+8,44,ecommerce.view-product,20,2018-01-02
+18,50,ecommerce.conversion,57,2019-05-28
+5,2,basura,99,2019-10-09
+9,28,ecommerce.view-product,25,2018-04-19
+11,6,ecommerce.conversion,9,2018-05-06
+12,33,ecommerce.checkout,13,2019-02-23
+2,49,basura,31,2018-05-14
+13,36,ecommerce.view-product,54,2019-01-15
+3,50,ecommerce.checkout,71,2018-01-31
+20,30,ecommerce.conversion,52,2018-12-22
+14,32,ecommerce.conversion,79,2019-08-18
+14,21,basura,88,2018-10-11
+2,35,mas basura,74,2018-11-09
+19,2,basura,76,2019-12-13
+5,37,mas basura,85,2018-01-22
+12,16,basura,38,2018-09-02
+20,3,ecommerce.conversion,14,2018-09-30
+1,47,mas basura,13,2019-06-10
+11,42,ecommerce.conversion,58,2019-02-08
+9,8,ecommerce.checkout,36,2018-12-23
+11,33,mas basura,97,2019-11-09
+3,3,mas basura,88,2019-12-19
+12,44,basura,31,2018-02-11
+5,7,mas basura,30,2018-10-26
+4,39,ecommerce.checkout,71,2018-07-19
+15,50,ecommerce.view-product,56,2019-10-12
+20,12,mas basura,94,2019-04-18
+12,4,ecommerce.checkout,26,2018-11-13
+1,22,mas basura,28,2019-01-06
+12,50,ecommerce.view-product,46,2018-06-20
+5,44,ecommerce.conversion,61,2019-11-12
+4,38,ecommerce.conversion,18,2018-09-01
+7,31,basura,82,2019-06-01
+13,14,ecommerce.checkout,28,2018-01-14
+5,43,ecommerce.checkout,58,2019-03-11
+4,5,basura,7,2018-02-27
+7,3,ecommerce.checkout,29,2019-02-19
+15,14,ecommerce.conversion,42,2019-11-09
+10,24,ecommerce.view-product,63,2018-10-18
+17,1,ecommerce.view-product,70,2018-10-19
+8,18,basura,3,2019-07-25
+11,17,ecommerce.view-product,80,2018-07-25
+4,22,mas basura,8,2018-11-04
+18,31,ecommerce.checkout,15,2019-01-30
+7,12,mas basura,9,2019-07-24
+7,42,ecommerce.checkout,24,2019-09-17
+19,37,ecommerce.view-product,6,2019-12-16
+8,26,ecommerce.conversion,18,2018-07-01
+10,31,ecommerce.view-product,44,2019-06-06
+5,35,ecommerce.conversion,31,2018-02-15
+15,47,ecommerce.conversion,19,2019-10-03
+12,47,ecommerce.conversion,65,2018-08-28
+16,38,mas basura,62,2019-03-30
+3,46,ecommerce.conversion,99,2018-10-23
+17,11,ecommerce.conversion,31,2019-11-03
+10,15,ecommerce.conversion,94,2018-08-30
+5,28,ecommerce.conversion,78,2018-06-19
+1,43,mas basura,85,2018-09-14
+16,11,basura,2,2019-10-24
+18,11,basura,77,2018-07-22
+1,41,ecommerce.conversion,11,2018-12-01
+2,1,basura,38,2019-08-13
+4,38,ecommerce.view-product,31,2019-01-13
+17,34,ecommerce.conversion,49,2019-05-14
+11,50,ecommerce.view-product,20,2018-10-13
+12,26,ecommerce.checkout,69,2018-06-27
+18,22,ecommerce.view-product,10,2018-10-16
+10,29,ecommerce.view-product,66,2018-01-27
+1,46,mas basura,90,2019-07-24
+8,41,ecommerce.conversion,58,2019-03-21
+19,24,ecommerce.view-product,63,2018-06-08
+1,36,ecommerce.checkout,8,2019-12-08
+7,37,ecommerce.view-product,55,2018-12-12
+18,29,ecommerce.checkout,69,2019-08-17
+19,3,ecommerce.conversion,51,2019-04-29
+20,9,ecommerce.conversion,96,2019-11-20
+9,15,ecommerce.checkout,22,2019-10-15
+3,38,ecommerce.conversion,99,2018-01-23
+20,20,ecommerce.checkout,33,2018-04-14
+9,45,mas basura,6,2018-11-06
+17,27,mas basura,51,2019-07-14
+18,1,mas basura,24,2018-08-04
+10,13,basura,32,2018-04-12
+14,40,ecommerce.checkout,95,2019-04-09
+5,23,mas basura,100,2019-03-30
+2,15,ecommerce.conversion,50,2018-10-30
+14,12,ecommerce.checkout,90,2018-01-06
+4,10,ecommerce.view-product,21,2019-12-18
+12,41,ecommerce.view-product,83,2018-06-30
+20,37,basura,78,2018-04-14
+16,47,basura,64,2018-05-18
+16,1,ecommerce.conversion,83,2019-11-14
+17,8,ecommerce.view-product,26,2019-08-10
+11,21,ecommerce.view-product,70,2019-05-08
+7,47,ecommerce.checkout,85,2019-11-06
+20,38,ecommerce.checkout,44,2019-02-12
+11,26,ecommerce.checkout,72,2019-01-18
+12,12,ecommerce.checkout,36,2019-07-04
+14,27,mas basura,3,2018-04-23
+5,50,basura,25,2019-08-03
+5,23,ecommerce.checkout,7,2018-09-27
+15,37,ecommerce.conversion,48,2019-05-07
+16,31,ecommerce.conversion,13,2018-06-21
+8,34,ecommerce.checkout,66,2018-08-05
+8,46,ecommerce.view-product,29,2019-10-12
+6,9,ecommerce.view-product,34,2019-05-01
+17,9,ecommerce.checkout,6,2018-07-24
+11,36,ecommerce.conversion,94,2018-01-05
+13,36,ecommerce.conversion,30,2018-11-13
+6,45,mas basura,19,2018-12-07
+15,23,ecommerce.conversion,61,2018-09-20
+13,13,ecommerce.view-product,27,2018-07-24
+10,12,ecommerce.checkout,65,2018-02-21
+16,7,mas basura,60,2018-08-07
+19,25,ecommerce.conversion,20,2019-07-17
+11,7,ecommerce.conversion,98,2018-02-03
+13,34,basura,14,2018-05-09
+1,14,mas basura,26,2019-08-21
+17,34,ecommerce.checkout,50,2018-01-27
+9,8,basura,61,2019-11-22
+3,29,ecommerce.checkout,59,2018-10-04
+13,14,ecommerce.view-product,11,2018-08-05
+10,39,ecommerce.checkout,55,2018-11-24
+9,10,ecommerce.checkout,47,2018-06-10
+9,7,ecommerce.view-product,82,2019-10-02
+10,24,ecommerce.view-product,89,2019-04-07
+12,20,ecommerce.conversion,69,2018-05-28
+19,16,mas basura,50,2018-05-21
+12,44,ecommerce.checkout,10,2019-08-30
+15,11,ecommerce.checkout,95,2018-11-14
+18,3,ecommerce.conversion,76,2018-01-19
+3,25,ecommerce.conversion,12,2018-04-17
+15,45,mas basura,36,2019-05-05
+12,19,basura,9,2019-02-20
+15,1,mas basura,97,2018-03-20
+11,38,ecommerce.checkout,51,2018-10-18
+18,13,basura,80,2019-08-27
+8,32,mas basura,93,2018-10-22
+2,26,ecommerce.checkout,87,2018-04-26
+16,4,basura,14,2018-12-02
+15,3,ecommerce.checkout,27,2018-03-30
+1,19,ecommerce.view-product,7,2019-12-02
+10,49,ecommerce.checkout,84,2018-08-03
+7,6,ecommerce.checkout,65,2019-04-11
+1,4,ecommerce.checkout,38,2019-06-25
+1,8,ecommerce.conversion,11,2018-02-21
+9,10,basura,55,2018-09-11
+17,32,ecommerce.checkout,28,2019-02-26
+17,39,ecommerce.conversion,14,2019-12-11
+17,37,ecommerce.conversion,93,2018-01-12
+6,18,basura,9,2019-12-30
+15,34,mas basura,63,2018-08-28
+17,39,mas basura,67,2019-05-04
+4,38,basura,62,2018-05-15
+19,26,ecommerce.checkout,81,2018-09-26
+10,31,ecommerce.conversion,81,2019-05-29
+17,41,ecommerce.conversion,50,2019-07-12
+16,24,basura,97,2019-03-10
+11,17,ecommerce.view-product,97,2018-06-17
+8,3,mas basura,71,2019-02-10
+7,20,ecommerce.checkout,41,2018-02-17
+16,35,ecommerce.conversion,6,2018-08-04
+11,44,mas basura,47,2018-12-05
+15,27,ecommerce.conversion,82,2018-09-06
+5,41,mas basura,24,2019-02-06
+4,50,ecommerce.conversion,10,2019-04-15
+3,36,ecommerce.checkout,52,2019-05-23
+9,32,ecommerce.checkout,32,2019-11-30
+12,44,basura,44,2018-06-09
+8,17,ecommerce.conversion,86,2019-05-03
+18,12,ecommerce.conversion,35,2019-08-21
+16,27,basura,78,2019-08-25
+12,16,ecommerce.view-product,78,2018-12-06
+13,37,mas basura,73,2019-06-18
+18,48,mas basura,21,2019-02-07
+20,40,basura,50,2019-07-06
+1,5,ecommerce.checkout,83,2019-06-15
+4,20,ecommerce.view-product,80,2019-03-23
+2,2,ecommerce.checkout,27,2019-08-27
+11,44,mas basura,65,2019-01-20
+7,37,ecommerce.checkout,64,2019-04-22
+19,48,mas basura,77,2018-02-02
+15,32,ecommerce.checkout,43,2019-05-27
+19,27,basura,31,2019-07-21
+11,22,basura,38,2018-01-31
+2,27,ecommerce.view-product,100,2019-08-03
+5,29,ecommerce.checkout,17,2018-11-19
+14,38,ecommerce.checkout,1,2019-04-24
+15,6,ecommerce.checkout,94,2019-03-31
+14,3,ecommerce.view-product,30,2018-03-26
+19,49,ecommerce.conversion,50,2019-04-11
+7,27,mas basura,43,2019-08-20
+7,8,ecommerce.conversion,55,2019-03-26
+12,26,ecommerce.conversion,76,2018-03-20
+17,17,ecommerce.view-product,43,2019-09-10
+4,12,ecommerce.view-product,46,2019-06-10
+7,50,ecommerce.view-product,49,2019-12-05
+7,3,basura,27,2018-01-15
+7,41,ecommerce.conversion,92,2018-05-25
+7,37,basura,13,2019-01-26
+4,44,basura,96,2019-02-01
+12,15,ecommerce.checkout,24,2018-08-01
+3,18,mas basura,79,2018-11-01
+3,18,mas basura,80,2019-02-23
+5,26,mas basura,33,2018-02-16
+9,34,ecommerce.checkout,21,2018-10-17
+7,8,ecommerce.conversion,47,2019-09-21
+6,17,mas basura,34,2018-12-07
+5,13,basura,15,2019-10-12
+1,25,mas basura,52,2019-12-23
+12,29,mas basura,57,2019-10-11
+8,16,ecommerce.conversion,100,2019-02-18
+14,10,ecommerce.view-product,86,2018-07-29
+19,34,mas basura,41,2019-09-16
+7,17,basura,38,2018-09-21
+18,36,basura,94,2019-07-25
+20,2,basura,80,2018-08-25
+14,23,mas basura,22,2018-08-11
+19,37,basura,34,2019-08-24
+3,17,basura,22,2019-08-23
+1,14,ecommerce.conversion,45,2019-10-11
+18,31,ecommerce.view-product,32,2019-09-16
+10,44,ecommerce.view-product,5,2019-12-13
+12,42,basura,64,2019-05-27
+13,16,ecommerce.checkout,13,2018-01-03
+12,20,ecommerce.conversion,24,2019-08-03
+1,37,mas basura,28,2018-04-13
+16,25,ecommerce.conversion,5,2018-09-09
+7,18,ecommerce.view-product,37,2019-07-17
+17,1,mas basura,9,2018-08-18
+5,44,ecommerce.checkout,62,2018-07-06
+20,44,mas basura,37,2019-05-20
+18,19,ecommerce.view-product,70,2019-12-07
+1,37,basura,7,2018-10-23
+19,28,ecommerce.checkout,78,2018-02-05
+7,7,ecommerce.view-product,94,2018-03-21
+17,34,basura,72,2019-12-19
+11,37,ecommerce.view-product,92,2018-08-12
+19,48,ecommerce.conversion,80,2019-06-06
+8,25,ecommerce.conversion,29,2018-04-22
+9,47,mas basura,48,2018-08-06
+14,35,mas basura,93,2019-09-27
+17,11,basura,60,2019-11-01
+16,49,mas basura,90,2018-12-26
+3,1,ecommerce.view-product,55,2018-12-18
+3,43,ecommerce.checkout,3,2018-07-17
+4,16,ecommerce.view-product,47,2019-08-05
+3,19,basura,10,2019-06-04
+18,28,basura,59,2018-01-28
+12,35,ecommerce.checkout,44,2018-11-11
+17,29,ecommerce.checkout,4,2019-01-11
+1,28,ecommerce.conversion,13,2019-06-18
+3,49,ecommerce.checkout,10,2019-08-23
+4,37,ecommerce.checkout,11,2019-11-06
+19,28,ecommerce.conversion,83,2018-06-04
+20,31,basura,38,2018-10-02
+12,14,ecommerce.view-product,17,2019-06-30
+13,45,basura,35,2018-10-31
+1,29,ecommerce.checkout,12,2019-11-12
+1,19,ecommerce.view-product,78,2019-09-10
+8,1,ecommerce.view-product,62,2019-12-07
+8,22,mas basura,67,2018-02-20
+5,31,ecommerce.view-product,33,2018-03-07
+13,26,mas basura,4,2018-10-21
+17,30,basura,37,2019-03-13
+4,8,ecommerce.view-product,82,2018-12-26
+11,29,ecommerce.checkout,68,2018-02-10
